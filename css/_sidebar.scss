@@ -1,0 +1,60 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.sitenav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  padding-top: 20px;
+  height: 100%;
+  width: 74px;
+  background-color: $darkgraytrans;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navitem{
+  margin: 10px;
+  border: 2px solid $pink;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  a{
+    text-decoration: none;
+    font-size: 24px;
+    color: $burgandy;
+    p{
+      display: none;
+      padding-left: 9px;
+      padding-top: 3px;
+    }
+  }
+}
+
+.navitem:hover{
+  width: 125px;
+  transition: width .5s;
+  p{
+    display: block;
+  }
+}
+
+.navitem:active{
+  border-color: $lime;
+}
+
+.socialnav{
+  box-sizing: border-box;
+  margin: 35%;
+  margin-bottom: 60%;
+  .fa{
+    margin-top: 35%;
+    font-size: 1.4em;
+    color: $burgandy;
+  }
+  .fa:hover{
+    color: $lime;
+  }
+}

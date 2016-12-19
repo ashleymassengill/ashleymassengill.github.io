@@ -1,0 +1,20 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "sidebar.scss";
+@import "about.scss";
+@import "projects.scss";
+@import "resume.scss";
+@import "contact.scss";
+
+body{
+  background-color: $lightgray;
+  color: $darkgray;
+}
+
+.pagebody{
+  margin: 5% 14%;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+@import "media.scss";
