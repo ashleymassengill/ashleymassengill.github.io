@@ -11,34 +11,36 @@
   flex-direction: column;
   justify-content: space-between; }
 
-.navitem {
-  margin: 10px;
-  border: 2px solid #94376D;
-  background-color: white;
-  height: 50px;
-  width: 50px; }
-  .navitem a {
-    text-decoration: none;
-    font-size: 24px;
-    color: #2E1122; }
-    .navitem a img {
+.mainnav a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #2E1122; }
+  .mainnav a .navitem {
+    margin: 10px;
+    border: 2px solid #94376D;
+    background-color: white;
+    height: 50px;
+    width: 50px; }
+    .mainnav a .navitem .logo {
+      display: block;
+      margin: 0 auto;
+      padding-top: 3px;
       height: 45px;
       object-fit: contain; }
-    .navitem a p {
+    .mainnav a .navitem p {
       display: none;
       padding-left: 9px;
       padding-top: 3px; }
-
-.navitem:hover {
-  width: 125px;
-  transition: width .5s; }
-  .navitem:hover img {
-    display: none; }
-  .navitem:hover p {
-    display: block; }
-
-.navitem:active {
-  border-color: #9DD118; }
+  .mainnav a .navitem:hover {
+    width: 125px;
+    transition: width .5s; }
+    .mainnav a .navitem:hover img {
+      display: none; }
+    .mainnav a .navitem:hover p {
+      display: block;
+      color: #565656; }
+  .mainnav a .navitem:active {
+    border-color: #9DD118; }
 
 .socialnav {
   box-sizing: border-box;
