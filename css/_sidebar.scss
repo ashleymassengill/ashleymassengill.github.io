@@ -40,6 +40,9 @@
 .navitem:hover{
   width: 125px;
   transition: width .5s;
+  img{
+    display: none;
+  }
   p{
     display: block;
   }

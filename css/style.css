@@ -21,6 +21,9 @@
     text-decoration: none;
     font-size: 24px;
     color: #2E1122; }
+    .navitem a img {
+      height: 45px;
+      object-fit: contain; }
     .navitem a p {
       display: none;
       padding-left: 9px;
@@ -29,6 +32,8 @@
 .navitem:hover {
   width: 125px;
   transition: width .5s; }
+  .navitem:hover img {
+    display: none; }
   .navitem:hover p {
     display: block; }
 
@@ -60,6 +65,7 @@
 .maincontact {
   padding-top: 25px; }
   .maincontact p {
+    padding-left: 12px;
     font-size: 18px; }
     .maincontact p a {
       text-decoration: none;
@@ -70,7 +76,7 @@ body {
   color: #565656; }
 
 .pagebody {
-  margin: 5% 14%;
+  margin: 5% 10% 0 15%;
   padding: 10px 15px;
   background-color: white; }
 
