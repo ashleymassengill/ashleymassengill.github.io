@@ -64,6 +64,63 @@
     .socialcontact div .fa:hover {
       color: #9DD118; }
 
+.fa::after {
+  font-family: 'helvetica neue', sans-serif; }
+
+.email::after {
+  content: "email";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.email:hover::after {
+  display: block; }
+
+.twitter::after {
+  content: "twitter";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.twitter:hover::after {
+  display: block; }
+
+.instagram::after {
+  content: "instagram";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.instagram:hover::after {
+  display: block; }
+
+.linkedin::after {
+  content: "linkedin";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.linkedin:hover::after {
+  display: block; }
+
+.github::after {
+  content: "github";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.github:hover::after {
+  display: block; }
+
+.codepen::after {
+  content: "codepen";
+  font-size: 16px;
+  color: #2E1122;
+  display: none; }
+
+.codepen:hover::after {
+  display: block; }
+
 .maincontact {
   padding-top: 25px; }
   .maincontact p {
@@ -75,10 +132,11 @@
 
 body {
   background-color: #F5F5F5;
-  color: #565656; }
+  color: #565656;
+  font-family: 'helvetica neue', sans-serif; }
 
 .pagebody {
-  margin: 5% 10% 0 15%;
+  margin: 5% 10% 0 16%;
   padding: 10px 15px;
   background-color: white; }
 

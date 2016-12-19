@@ -13,6 +13,76 @@
   }
 }
 
+.fa::after{
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.email::after{
+  content: "email";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.email:hover::after{
+  display: block;
+}
+
+.twitter::after{
+  content: "twitter";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.twitter:hover::after{
+  display: block;
+}
+
+.instagram::after{
+  content: "instagram";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.instagram:hover::after{
+  display: block;
+}
+
+.linkedin::after{
+  content: "linkedin";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.linkedin:hover::after{
+  display: block;
+}
+
+.github::after{
+  content: "github";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.github:hover::after{
+  display: block;
+}
+
+.codepen::after{
+  content: "codepen";
+  font-size: 16px;
+  color: $burgandy;
+  display: none;
+}
+
+.codepen:hover::after{
+  display: block;
+}
+
 .maincontact{
   padding-top: 25px;
   p{
