@@ -30,7 +30,7 @@
     .mainnav a .navitem p {
       display: none;
       padding-left: 9px;
-      padding-top: 3px; }
+      padding-top: 4px; }
   .mainnav a .navitem:hover {
     width: 125px;
     transition: width .5s; }
