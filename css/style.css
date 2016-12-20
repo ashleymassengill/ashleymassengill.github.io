@@ -129,6 +129,9 @@
     .maincontact p a {
       text-decoration: none;
       color: #565656; }
+    .maincontact p a:hover {
+      text-decoration: underline;
+      color: #94376D; }
 
 body {
   background-color: #F5F5F5;

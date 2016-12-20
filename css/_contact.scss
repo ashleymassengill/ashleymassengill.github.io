@@ -23,7 +23,6 @@
   color: $burgandy;
   display: none;
 }
-
 .email:hover::after{
   display: block;
 }
@@ -34,7 +33,6 @@
   color: $burgandy;
   display: none;
 }
-
 .twitter:hover::after{
   display: block;
 }
@@ -45,7 +43,6 @@
   color: $burgandy;
   display: none;
 }
-
 .instagram:hover::after{
   display: block;
 }
@@ -56,7 +53,6 @@
   color: $burgandy;
   display: none;
 }
-
 .linkedin:hover::after{
   display: block;
 }
@@ -67,7 +63,6 @@
   color: $burgandy;
   display: none;
 }
-
 .github:hover::after{
   display: block;
 }
@@ -78,7 +73,6 @@
   color: $burgandy;
   display: none;
 }
-
 .codepen:hover::after{
   display: block;
 }
@@ -91,6 +85,10 @@
     a{
       text-decoration: none;
       color: $darkgray;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: $pink;
     }
   }
 }
