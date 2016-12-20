@@ -71,65 +71,71 @@
   content: "email";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .email:hover::after {
-  display: block; }
+  opacity: 100; }
 
 .twitter::after {
   content: "twitter";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .twitter:hover::after {
-  display: block; }
+  opacity: 100; }
 
 .instagram::after {
   content: "instagram";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .instagram:hover::after {
-  display: block; }
+  opacity: 100; }
 
 .linkedin::after {
   content: "linkedin";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .linkedin:hover::after {
-  display: block; }
+  opacity: 100; }
 
 .github::after {
   content: "github";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .github:hover::after {
-  display: block; }
+  opacity: 100; }
 
 .codepen::after {
   content: "codepen";
   font-size: 16px;
   color: #2E1122;
-  display: none; }
+  display: block;
+  opacity: 0; }
 
 .codepen:hover::after {
-  display: block; }
+  opacity: 100; }
 
-.maincontact {
+.maincontact .address {
   padding-top: 25px; }
-  .maincontact p {
+  .maincontact .address p {
     padding-left: 12px;
     font-size: 18px; }
-    .maincontact p a {
+    .maincontact .address p a {
       text-decoration: none;
       color: #565656; }
-    .maincontact p a:hover {
+    .maincontact .address p a:hover {
       text-decoration: underline;
       color: #94376D; }
 
