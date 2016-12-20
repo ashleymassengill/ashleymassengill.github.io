@@ -44,10 +44,14 @@ body{
     font-size: 24px;
     font-weight: 500;
     color: $burgandy;
+    padding: 5px 10px;
+    border: 2px solid $burgandy;
+    background: $lightgray;
   }
   a:hover{
     color: $pink;
     text-decoration: underline;
+    border: 2px solid $lime;
   }
 }
 
