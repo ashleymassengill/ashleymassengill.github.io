@@ -56,10 +56,11 @@
 h4 {
   font-weight: 500; }
 
-.current {
+.current, .future {
   width: 90%;
-  margin: 0 auto; }
-  .current p {
+  margin: 0 auto;
+  margin-bottom: 75px; }
+  .current p, .future p {
     text-align: left;
     font-size: 1.15em; }
 
@@ -84,7 +85,6 @@ h4 {
 
 .treasures {
   height: 400px;
-  width: 1024px;
   background: url(../images/projects/treasuresunearthed_main.png) no-repeat top center;
   background-attachment: fixed; }
 
