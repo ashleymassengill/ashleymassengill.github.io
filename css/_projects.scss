@@ -1,0 +1,54 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+h4{
+  font-weight: 500;
+}
+
+p{
+  text-align: left;
+}
+
+.current{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.emptyspace{
+  height: 200px;
+}
+
+.projectinfo{
+  background: $lightgraytrans;
+  height: 200px;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  @include verticalcenter;
+
+}
+
+.treasures{
+  height: 300px;
+  width: 1024px;
+  background: url(../images/projects/treasuresunearthed_main.png) no-repeat top center;
+  background-attachment: fixed;
+}
+
+.deadgame{
+  height: 300px;
+  background: url(../images/projects/deadgame_main.png) no-repeat top center;
+  background-attachment: fixed;
+}
+
+.goodreads{
+  height: 300px;
+  background: url(../images/projects/goodreads_main.png) no-repeat top center;
+  background-attachment: fixed;
+}
+
+.branchless{
+  height: 300px;
+  background: url(../images/projects/branchlessapp_main.png) no-repeat top center;
+  background-attachment: fixed;
+}
