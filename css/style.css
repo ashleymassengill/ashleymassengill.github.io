@@ -67,7 +67,7 @@ h4 {
   height: 200px; }
 
 .projectinfo {
-  background: rgba(245, 245, 245, 0.9);
+  background: rgba(245, 245, 245, 0.95);
   width: 775px;
   margin: 0 auto;
   padding: 10px;
@@ -77,28 +77,29 @@ h4 {
   .projectinfo p {
     text-align: left;
     font-size: 1.3em; }
-    .projectinfo p a {
-      text-decoration: none;
-      color: #94376D; }
+  .projectinfo a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #94376D; }
 
 .treasures {
-  height: 300px;
+  height: 400px;
   width: 1024px;
   background: url(../images/projects/treasuresunearthed_main.png) no-repeat top center;
   background-attachment: fixed; }
 
 .deadgame {
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/deadgame_main.png) no-repeat top center;
   background-attachment: fixed; }
 
 .goodreads {
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/goodreads_main.png) no-repeat top center;
   background-attachment: fixed; }
 
 .branchless {
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/branchlessapp_main.png) no-repeat top center;
   background-attachment: fixed; }
 

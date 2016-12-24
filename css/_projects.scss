@@ -27,34 +27,35 @@ h4{
   p{
     text-align: left;
     font-size: 1.3em;
-    a{
-      text-decoration: none;
-      color: $pink;
-    }
+  }
+  a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: $pink;
   }
 }
 
 .treasures{
-  height: 300px;
+  height: 400px;
   width: 1024px;
   background: url(../images/projects/treasuresunearthed_main.png) no-repeat top center;
   background-attachment: fixed;
 }
 
 .deadgame{
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/deadgame_main.png) no-repeat top center;
   background-attachment: fixed;
 }
 
 .goodreads{
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/goodreads_main.png) no-repeat top center;
   background-attachment: fixed;
 }
 
 .branchless{
-  height: 300px;
+  height: 400px;
   background: url(../images/projects/branchlessapp_main.png) no-repeat top center;
   background-attachment: fixed;
 }
