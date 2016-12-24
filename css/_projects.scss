@@ -5,13 +5,13 @@ h4{
   font-weight: 500;
 }
 
-p{
-  text-align: left;
-}
-
 .current{
   width: 90%;
   margin: 0 auto;
+  p{
+    text-align: left;
+    font-size: 1.15em;
+  }
 }
 
 .emptyspace{
@@ -20,12 +20,18 @@ p{
 
 .projectinfo{
   background: $lightgraytrans;
-  height: 200px;
-  width: 700px;
+  width: 775px;
   margin: 0 auto;
   padding: 10px;
   @include verticalcenter;
-
+  p{
+    text-align: left;
+    font-size: 1.3em;
+    a{
+      text-decoration: none;
+      color: $pink;
+    }
+  }
 }
 
 .treasures{

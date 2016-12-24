@@ -56,25 +56,30 @@
 h4 {
   font-weight: 500; }
 
-p {
-  text-align: left; }
-
 .current {
   width: 90%;
   margin: 0 auto; }
+  .current p {
+    text-align: left;
+    font-size: 1.15em; }
 
 .emptyspace {
   height: 200px; }
 
 .projectinfo {
   background: rgba(245, 245, 245, 0.9);
-  height: 200px;
-  width: 700px;
+  width: 775px;
   margin: 0 auto;
   padding: 10px;
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
+  .projectinfo p {
+    text-align: left;
+    font-size: 1.3em; }
+    .projectinfo p a {
+      text-decoration: none;
+      color: #94376D; }
 
 .treasures {
   height: 300px;
