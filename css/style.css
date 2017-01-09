@@ -53,16 +53,20 @@
   .socialnav .fa:hover {
     color: #9DD118; }
 
-h4, h5 {
+h4, h5, h6 {
   font-weight: 500; }
 
 .current, .future {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.currentDesc, .future p {
+  text-align: left;
+  font-size: 1.15em;
   margin-bottom: 50px; }
-  .current p, .future p {
-    text-align: left;
-    font-size: 1.15em; }
+
+.projectLogo {
+  width: 200px; }
 
 .projects {
   box-sizing: border-box;
@@ -88,6 +92,20 @@ h4, h5 {
     color: #94376D; }
   .projectinfo a:hover {
     text-decoration: underline; }
+
+.resumebody {
+  text-align: left; }
+
+h6 {
+  font-size: 1.2em; }
+
+.entryTitle {
+  display: inline;
+  text-align: left; }
+
+.entryDateLoc {
+  display: inline;
+  text-align: right; }
 
 .socialcontact {
   text-align: center; }

@@ -1,18 +1,23 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-h4, h5{
+h4, h5, h6{
   font-weight: 500;
 }
 
 .current, .future{
   width: 90%;
   margin: 0 auto;
+}
+
+.currentDesc, .future p{
+  text-align: left;
+  font-size: 1.15em;
   margin-bottom: 50px;
-  p{
-    text-align: left;
-    font-size: 1.15em;
-  }
+}
+
+.projectLogo{
+  width: 200px;
 }
 
 .projects{
