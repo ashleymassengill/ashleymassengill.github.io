@@ -21,7 +21,7 @@
     background-color: white;
     height: 50px;
     width: 50px; }
-    .mainnav a .navitem .logo {
+    .mainnav a .navitem .icon {
       display: block;
       margin: 0 auto;
       padding-top: 3px;
@@ -96,16 +96,23 @@ h4, h5, h6 {
 .resumebody {
   text-align: left; }
 
-h6 {
+.sectionHead {
+  text-decoration: underline; }
+
+.entry h6 {
   font-size: 1.2em; }
+.entry .entryTitle {
+  float: left; }
+.entry .entryDateLoc {
+  float: right; }
+.entry ul {
+  list-style: none;
+  padding-left: 15px; }
+.entry p {
+  padding-left: 15px; }
 
-.entryTitle {
-  display: inline;
-  text-align: left; }
-
-.entryDateLoc {
-  display: inline;
-  text-align: right; }
+.clearFloat {
+  clear: both; }
 
 .socialcontact {
   text-align: center; }
@@ -212,12 +219,12 @@ body {
   object-fit: contain; }
 
 .headshot img {
-  width: 400px;
+  width: 475px;
   object-fit: contain; }
 
 .homedesc p {
   margin-top: 40px;
-  font-size: 1.2em; }
+  font-size: 1.6em; }
 
 .pages {
   padding-top: 10px;

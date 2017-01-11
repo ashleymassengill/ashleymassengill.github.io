@@ -26,13 +26,13 @@
     background-color: white;
     height: 50px;
     width: 50px;
-      .logo{
-        display: block;
-        margin: 0 auto;
-        padding-top: 3px;
-        height: 45px;
-        object-fit: contain;
-      }
+    .icon{
+      display: block;
+      margin: 0 auto;
+      padding-top: 3px;
+      height: 45px;
+      object-fit: contain;
+    }
       p{
         display: none;
         padding-left: 9px;
@@ -55,7 +55,6 @@
     }
   }
 }
-
 
 .socialnav{
   box-sizing: border-box;

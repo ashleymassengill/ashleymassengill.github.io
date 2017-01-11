@@ -2,16 +2,32 @@
   text-align: left;
 }
 
-h6{
-  font-size: 1.2em;
+.sectionHead{
+  text-decoration: underline;
 }
 
-.entryTitle{
-  display: inline;
-  text-align: left;
+.entry{
+  h6{
+    font-size: 1.2em;
+  }
+  .entryTitle{
+    float: left;
+  }
+  .entryDateLoc{
+    float: right;
+  }
+  ul{
+    list-style: none;
+    padding-left: 15px;
+  }
+  p{
+    padding-left: 15px;
+  }
 }
 
-.entryDateLoc{
-  display: inline;
-  text-align: right;
+
+
+
+.clearFloat{
+  clear: both;
 }
