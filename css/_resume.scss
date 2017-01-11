@@ -2,19 +2,35 @@
   text-align: left;
 }
 
+.download a{
+  text-decoration: none;
+  color: $darkgray;
+}
+.download a:hover{
+  text-decoration: underline;;
+  color: $pink;
+}
+
 .sectionHead{
   text-decoration: underline;
 }
 
 .entry{
   h6{
-    font-size: 1.2em;
+    font-size: 1.25em;
+    margin-bottom: 0px;
   }
-  .entryTitle{
+  .entryTitle, .floatLeft{
     float: left;
   }
   .entryDateLoc{
     float: right;
+    font-weight: 300;
+    font-size: 1.15em;
+  }
+  .dateLoc{
+    font-weight: 300;
+    font-size: 1.15em;
   }
   ul{
     list-style: none;
@@ -25,8 +41,32 @@
   }
 }
 
+.techList{
+  min-height: 340px;
+  margin-bottom: 20px;
+  p{
+    font-size: 1.2em;
+    padding: 7px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 2px solid $darkgray;
+    float: left;
+  }
+}
 
+.volunteer{
+  margin-bottom: 25px;
+}
 
+.interest{
+  float: left;
+  text-align: center;
+  margin-right: 40px;
+  img{
+    height: 50px;
+    object-fit: contain;
+  }
+}
 
 .clearFloat{
   clear: both;
