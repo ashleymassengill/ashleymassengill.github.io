@@ -6,40 +6,45 @@
   padding-top: 20px;
   height: 100%;
   width: 74px;
-  background-color: rgba(86, 86, 86, 0.9);
+  background-color: #8F8F8F;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
+.mainnav ul {
+  list-style: none; }
+  .mainnav ul li {
+    list-style: none; }
 .mainnav a {
   text-decoration: none;
   font-size: 24px;
   color: #2E1122; }
-  .mainnav a .navitem {
+  .mainnav a div {
     margin: 10px;
     border: 2px solid #94376D;
     background-color: white;
     height: 50px;
     width: 50px; }
-    .mainnav a .navitem .icon {
+    .mainnav a div img {
       display: block;
       margin: 0 auto;
       padding-top: 3px;
       height: 45px;
       object-fit: contain; }
-    .mainnav a .navitem p {
+    .mainnav a div p {
       display: none;
-      padding-left: 9px;
+      text-align: right;
+      padding-right: 9px;
       padding-top: 4px; }
-  .mainnav a .navitem:hover {
+  .mainnav a div:hover {
     width: 125px;
-    transition: width .5s; }
-    .mainnav a .navitem:hover img {
+    transition: width .25s; }
+    .mainnav a div:hover img {
       display: none; }
-    .mainnav a .navitem:hover p {
+    .mainnav a div:hover p {
       display: block;
       color: #565656; }
-  .mainnav a .navitem:active {
+  .mainnav a .active {
     border-color: #9DD118; }
 
 .socialnav {
@@ -243,7 +248,7 @@ body {
 .pagebody {
   text-align: center;
   margin: 0 auto;
-  margin: 5% 10% 0 16%;
+  margin: 33px 10% 0 16%;
   padding: 10px 15px;
   background-color: white; }
 
