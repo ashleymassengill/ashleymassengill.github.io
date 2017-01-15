@@ -86,7 +86,7 @@ h4, h5, h6 {
   margin-bottom: 50px; }
 
 .projectLogo {
-  width: 200px; }
+  width: 300px; }
 
 .projects {
   box-sizing: border-box;
@@ -141,7 +141,15 @@ h4, h5, h6 {
   list-style: none;
   padding-left: 15px; }
 .entry p {
-  padding-left: 15px; }
+  padding-left: 15px;
+  margin-bottom: 5px; }
+
+.projectDutyList {
+  margin-bottom: 5px; }
+  .projectDutyList li {
+    display: inline; }
+    .projectDutyList li .fa {
+      font-size: 12px; }
 
 .techList {
   min-height: 340px;

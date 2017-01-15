@@ -38,6 +38,17 @@
   }
   p{
     padding-left: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.projectDutyList{
+  margin-bottom: 5px;
+  li{
+    display: inline;
+    .fa{
+      font-size: 12px;
+    }
   }
 }
 
