@@ -94,7 +94,7 @@
 .remodal-close {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 
   display: block;
   overflow: visible;
@@ -109,7 +109,7 @@
   transition: color 0.2s;
   text-decoration: none;
 
-  color: #95979c;
+  color: #8F8F8F;
   border: 0;
   outline: 0;
   background: transparent;
@@ -117,17 +117,17 @@
 
 .remodal-close:hover,
 .remodal-close:focus {
-  color: #2b2e38;
+  color: #565656;
 }
 
 .remodal-close:before {
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-family: 'helvetica neue', helvetica, sans-serif !important;
   font-size: 25px;
   line-height: 35px;
 
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 
   display: block;
 

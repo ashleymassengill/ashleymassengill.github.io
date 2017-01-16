@@ -14,6 +14,14 @@ h4, h5, h6{
   text-align: left;
   font-size: 1.15em;
   margin-bottom: 50px;
+  a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: $pink;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
 }
 
 .projectLogo{
@@ -42,6 +50,21 @@ h4, h5, h6{
   a{
     text-decoration: none;
     font-size: 1.3em;
+    color: $pink;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+.remodal{
+  .fa{
+    font-size: 1.3em;
+    color: $darkgray;
+  }
+  a{
+    text-decoration: none;
+    font-size: 1.1em;
     color: $pink;
   }
   a:hover{

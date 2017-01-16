@@ -84,6 +84,12 @@ h4, h5, h6 {
   text-align: left;
   font-size: 1.15em;
   margin-bottom: 50px; }
+  .currentDesc a, .future p a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #94376D; }
+  .currentDesc a:hover, .future p a:hover {
+    text-decoration: underline; }
 
 .projectLogo {
   width: 300px; }
@@ -110,6 +116,16 @@ h4, h5, h6 {
     color: #94376D; }
   .projectinfo a:hover {
     text-decoration: underline; }
+
+.remodal .fa {
+  font-size: 1.3em;
+  color: #565656; }
+.remodal a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #94376D; }
+.remodal a:hover {
+  text-decoration: underline; }
 
 .resumebody {
   text-align: left; }
