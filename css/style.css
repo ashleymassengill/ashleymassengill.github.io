@@ -126,6 +126,8 @@ h4, h5, h6 {
   color: #94376D; }
 .remodal a:hover {
   text-decoration: underline; }
+.remodal .modalProjectDetail {
+  max-width: 800px; }
 
 .resumebody {
   text-align: left; }
