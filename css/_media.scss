@@ -2,7 +2,7 @@
 @media only screen and (min-device-width : 1px) and (max-device-width : 767px) {
 // all pages
   .pagebody{
-  margin: 5%;
+  margin: 18% 5% 5% 5%;
   padding: 7%;
   background-color: white;
   }
@@ -20,6 +20,6 @@
     display: none;
   }
   .mobilenav{
-    // display: block;
+    display: block;
   }
 }

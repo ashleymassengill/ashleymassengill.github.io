@@ -62,15 +62,34 @@
   background-color: #8F8F8F;
   position: fixed;
   top: 0px;
-  height: 50px; }
+  height: 50px;
+  width: 100%; }
   .mobileNav .socialnavMobile {
-    box-sizing: border-box;
-    margin: 35%;
-    margin-bottom: 60%; }
-    .mobileNav .socialnavMobile .fa {
-      margin-top: 35%;
-      font-size: 1.4em;
-      color: #2E1122; }
+    float: left;
+    padding-left: 5%;
+    width: 300px; }
+    .mobileNav .socialnavMobile ul {
+      list-style: none;
+      margin: 0px;
+      margin-top: 4%; }
+      .mobileNav .socialnavMobile ul li {
+        display: inline;
+        margin: 3.5%; }
+        .mobileNav .socialnavMobile ul li .fa {
+          font-size: 1.6em;
+          color: #2E1122; }
+  .mobileNav .menunavMobile {
+    float: right;
+    padding-right: 5%; }
+    .mobileNav .menunavMobile ul {
+      list-style: none;
+      margin: 0px; }
+      .mobileNav .menunavMobile ul .fa {
+        font-size: 2em;
+        color: #2E1122;
+        margin-top: 35%; }
+      .mobileNav .menunavMobile ul li {
+        display: none; }
 
 .aboutpage * {
   width: 100%;
@@ -322,7 +341,7 @@ body {
 
 @media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
   .pagebody {
-    margin: 5%;
+    margin: 18% 5% 5% 5%;
     padding: 7%;
     background-color: white; }
 
@@ -334,6 +353,9 @@ body {
     display: none; }
 
   .sitenav {
-    display: none; } }
+    display: none; }
+
+  .mobilenav {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
