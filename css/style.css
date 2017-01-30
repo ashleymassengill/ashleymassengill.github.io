@@ -58,6 +58,20 @@
   .socialnav .fa:hover {
     color: #9DD118; }
 
+.mobileNav {
+  background-color: #8F8F8F;
+  position: fixed;
+  top: 0px;
+  height: 50px; }
+  .mobileNav .socialnavMobile {
+    box-sizing: border-box;
+    margin: 35%;
+    margin-bottom: 60%; }
+    .mobileNav .socialnavMobile .fa {
+      margin-top: 35%;
+      font-size: 1.4em;
+      color: #2E1122; }
+
 .aboutpage * {
   width: 100%;
   object-fit: contain;
@@ -306,19 +320,20 @@ body {
   margin-top: 40px;
   font-size: 1.6em; }
 
-.pages {
-  padding-top: 10px;
-  padding-bottom: 30px; }
-  .pages a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
-    color: #2E1122;
-    padding: 5px 10px;
-    border: 2px solid #2E1122;
-    background: #F5F5F5; }
-  .pages a:hover {
-    text-decoration: underline;
-    border: 2px solid #9DD118; }
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
+  .pagebody {
+    margin: 5%;
+    padding: 7%;
+    background-color: white; }
+
+  .headshot img {
+    width: 100%;
+    object-fit: contain; }
+
+  .socialcontact {
+    display: none; }
+
+  .sitenav {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

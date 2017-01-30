@@ -1,0 +1,25 @@
+// mobile responsive
+@media only screen and (min-device-width : 1px) and (max-device-width : 767px) {
+// all pages
+  .pagebody{
+  margin: 5%;
+  padding: 7%;
+  background-color: white;
+  }
+// home page
+  .headshot img{
+    width: 100%;
+    object-fit: contain;
+  }
+// contact
+  .socialcontact{
+    display: none;
+  }
+// site nav
+  .sitenav{
+    display: none;
+  }
+  .mobilenav{
+    // display: block;
+  }
+}

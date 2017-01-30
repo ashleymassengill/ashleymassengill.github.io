@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "sidebar.scss";
+@import "mobilenav.scss";
 @import "about.scss";
 @import "projects.scss";
 @import "resume.scss";
@@ -36,22 +37,22 @@ body{
     font-size: 1.6em;
   }
 
-.pages{
-  padding-top: 10px;
-  padding-bottom: 30px;
-  a{
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
-    color: $burgandy;
-    padding: 5px 10px;
-    border: 2px solid $burgandy;
-    background: $lightgray;
-  }
-  a:hover{
-    text-decoration: underline;
-    border: 2px solid $lime;
-  }
-}
+// .pages{
+//   padding-top: 10px;
+//   padding-bottom: 30px;
+//   a{
+//     text-decoration: none;
+//     font-size: 24px;
+//     font-weight: 500;
+//     color: $burgandy;
+//     padding: 5px 10px;
+//     border: 2px solid $burgandy;
+//     background: $lightgray;
+//   }
+//   a:hover{
+//     text-decoration: underline;
+//     border: 2px solid $lime;
+//   }
+// }
 
 @import "media.scss";
