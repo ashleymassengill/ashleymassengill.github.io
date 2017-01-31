@@ -27,7 +27,28 @@
   <div id="sidebar"></div>
 </section>
 <section>
-  <div id="mobilenav"></div>
+  <!-- mobile nav -->
+  <div class="mobileNav">
+    <div class="socialnavMobile">
+      <ul>
+        <li><a href="mailto:massengillashley@icloud.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/ashisms" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/ashisms/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-massengill-07455974" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/ashleymassengill" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="http://codepen.io/ashisms/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="menunavMobile">
+      <ul><i class="fa fa-bars" aria-hidden="true"></i>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <!-- resume body -->
@@ -170,8 +191,25 @@
             <p>Google Docs</p>
             <p>Crystal Reports</p>
           </div>
+
+<!-- education -->
+          <h5 class="sectionHead clearFloat">Education</h5>
+<!-- The Iron Yard -->
+          <div class="entry">
+            <h6>UI Design, The Iron Yard</h6>
+            <h6 class="dateLoc"><i class="fa fa-calendar" aria-hidden="true"></i> Oct 2016 - Jan 2017&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i> Raleigh, NC</h6>
+          </div>
+          <br>
+<!-- ECU -->
+          <div class="entry">
+            <h6>East Carolina University</h6>
+            <h6 class="dateLoc"><i class="fa fa-calendar" aria-hidden="true"></i> Aug 2001 - May 2003&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i> Greenville, NC</h6>
+          </div>
+
+          <br>
+
 <!-- Volunteer History -->
-          <h5 class="sectionHead clearFloat">Volunteer History</h5>
+          <h5 class="sectionHead">Volunteer History</h5>
           <!-- nc state -->
           <div class="volunteer entry">
             <h6>Guest Sesrvices</h6>
@@ -196,22 +234,6 @@
             <h6>SPARKcon</h6>
             <h6 class="dateLoc"><i class="fa fa-calendar" aria-hidden="true"></i> Sept 2009&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i> Raleigh, NC</h6>
           </div>
-
-<!-- education -->
-          <h5 class="sectionHead">Education</h5>
-<!-- The Iron Yard -->
-          <div class="entry">
-            <h6>UI Design, The Iron Yard</h6>
-            <h6 class="dateLoc"><i class="fa fa-calendar" aria-hidden="true"></i> Oct 2016 - Jan 2017&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i> Raleigh, NC</h6>
-          </div>
-          <br>
-<!-- ECU -->
-          <div class="entry">
-            <h6>East Carolina University</h6>
-            <h6 class="dateLoc"><i class="fa fa-calendar" aria-hidden="true"></i> Aug 2001 - May 2003&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i> Greenville, NC</h6>
-          </div>
-
-          <br>
 
 <!-- interests -->
         <h5 class="sectionHead">Interests</h5>
@@ -260,9 +282,7 @@
    <script>$(document).ready(function(){
      $('#sidebar').load('sidebar.html');
    });</script>
-   <script>$(document).ready(function(){
-     $('#mobilenav').load('mobilenav.html');
-   });</script>
+
 
 </body>
 

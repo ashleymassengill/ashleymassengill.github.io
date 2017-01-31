@@ -63,18 +63,19 @@
   position: fixed;
   top: 0px;
   height: 50px;
-  width: 100%; }
+  width: 100%;
+  display: none; }
   .mobileNav .socialnavMobile {
     float: left;
-    padding-left: 5%;
-    width: 300px; }
+    padding-left: 2.85%;
+    width: 250px; }
     .mobileNav .socialnavMobile ul {
       list-style: none;
       margin: 0px;
       margin-top: 4%; }
       .mobileNav .socialnavMobile ul li {
         display: inline;
-        margin: 3.5%; }
+        margin: 3%; }
         .mobileNav .socialnavMobile ul li .fa {
           font-size: 1.6em;
           color: #2E1122; }
@@ -83,17 +84,24 @@
     padding-right: 5%; }
     .mobileNav .menunavMobile ul {
       list-style: none;
-      margin: 0px; }
+      background-color: #8F8F8F;
+      margin: 0px;
+      margin-top: 10px;
+      text-align: right; }
       .mobileNav .menunavMobile ul .fa {
         font-size: 2em;
         color: #2E1122;
-        margin-top: 35%; }
+        text-align: right;
+        padding-right: 5px; }
       .mobileNav .menunavMobile ul li {
         text-align: right;
-        display: none; }
+        display: none;
+        margin: 0px;
+        padding-left: 7px;
+        padding-right: 7px; }
         .mobileNav .menunavMobile ul li a {
           text-decoration: none;
-          color: #565656;
+          color: #2E1122;
           font-size: 1.5em; }
 
 .aboutpage * {
@@ -136,7 +144,8 @@ h4, h5, h6 {
   box-sizing: border-box;
   border: 3px solid #2E1122;
   background: #F5F5F5;
-  margin-bottom: 8%; }
+  margin-bottom: 8%;
+  min-height: 505px; }
   .projects img {
     height: 275px;
     width: 100%; }
@@ -360,7 +369,7 @@ body {
   .sitenav {
     display: none; }
 
-  .mobilenav {
+  .mobileNav {
     display: block; } }
 
 /*# sourceMappingURL=style.css.map */

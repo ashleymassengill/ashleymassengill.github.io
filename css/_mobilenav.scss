@@ -4,18 +4,18 @@
   top: 0px;
   height: 50px;
   width: 100%;
-  // display: none;
+  display: none;
   .socialnavMobile{
     float: left;
-    padding-left: 5%;
-    width: 300px;
+    padding-left: 2.85%;
+    width: 250px;
     ul{
       list-style: none;
       margin: 0px;
       margin-top: 4%;
       li{
         display: inline;
-        margin: 3.5%;
+        margin: 3%;
         .fa{
           font-size: 1.6em;
           color: $burgandy;
@@ -28,18 +28,25 @@
     padding-right: 5%;
     ul{
       list-style: none;
+      background-color: $medgray;
       margin: 0px;
+      margin-top: 10px;
+      text-align: right;
       .fa{
         font-size: 2em;
         color: $burgandy;
-        margin-top: 35%;
+        text-align: right;
+        padding-right: 5px;
       }
       li{
         text-align: right;
         display: none;
+        margin: 0px;
+        padding-left: 7px;
+        padding-right: 7px;
         a{
           text-decoration: none;
-          color: $darkgray;
+          color: $burgandy;
           font-size: 1.5em;
         }
       }
