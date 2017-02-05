@@ -67,15 +67,15 @@
   display: none; }
   .mobileNav .socialnavMobile {
     float: left;
-    padding-left: 2.85%;
-    width: 250px; }
+    padding-left: 5%;
+    width: 225px; }
     .mobileNav .socialnavMobile ul {
       list-style: none;
       margin: 0px;
       margin-top: 4%; }
       .mobileNav .socialnavMobile ul li {
         display: inline;
-        margin: 3%; }
+        margin-right: 4%; }
         .mobileNav .socialnavMobile ul li .fa {
           font-size: 1.6em;
           color: #2E1122; }
