@@ -363,6 +363,18 @@ body {
     width: 100%;
     object-fit: contain; }
 
+  .entry .entryTitle, .entry .floatLeft {
+    float: none; }
+  .entry .entryDateLoc {
+    float: none; }
+  .entry ul {
+    padding-left: 0px; }
+  .entry p {
+    padding-left: 0px; }
+
+  .mobileHide {
+    display: none; }
+
   .socialcontact {
     display: none; }
 

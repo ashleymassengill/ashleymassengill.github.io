@@ -11,6 +11,24 @@
     width: 100%;
     object-fit: contain;
   }
+// resume
+  .entry{
+    .entryTitle, .floatLeft{
+      float: none;
+    }
+    .entryDateLoc{
+      float: none;
+    }
+    ul{
+      padding-left: 0px;
+    }
+    p{
+      padding-left: 0px;
+    }
+  }
+  .mobileHide{
+    display: none;
+  }
 // contact
   .socialcontact{
     display: none;
