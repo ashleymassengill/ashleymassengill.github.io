@@ -79,9 +79,12 @@ h4, h5, h6{
 .projectDetail{
   margin-top: 10px;
   text-align: left;
+  font-size: 1.1em;
   h6{
     text-decoration: underline;
+    font-size: 1.2em;
     display: inline;
+    color: $burgandy;
   }
   .imgFullWidth{
     width: 95%;

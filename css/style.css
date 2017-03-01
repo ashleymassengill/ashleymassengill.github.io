@@ -178,10 +178,13 @@ h4, h5, h6 {
 
 .projectDetail {
   margin-top: 10px;
-  text-align: left; }
+  text-align: left;
+  font-size: 1.1em; }
   .projectDetail h6 {
     text-decoration: underline;
-    display: inline; }
+    font-size: 1.2em;
+    display: inline;
+    color: #2E1122; }
   .projectDetail .imgFullWidth {
     width: 95%;
     margin: 0 auto;
