@@ -75,3 +75,39 @@ h4, h5, h6{
     max-width: 800px;
   }
 }
+
+.projectDetail{
+  margin-top: 10px;
+  text-align: left;
+  h6{
+    text-decoration: underline;
+    display: inline;
+  }
+  .imgFullWidth{
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-top: 10px;
+  }
+  .imgMobile{
+    width: 25%;
+    padding: 5px;
+  }
+  .imgIcons{
+    width: 45%;
+    padding: 5px;
+  }
+  .floatLeft{
+    float: left;
+  }
+  .floatRight{
+    float: right;
+  }
+  ul{
+    list-style: none;
+    li{
+      padding-left: 10px;
+      margin-bottom: 0;
+    }
+  }
+}

@@ -176,6 +176,33 @@ h4, h5, h6 {
 .remodal .modalProjectDetail {
   max-width: 800px; }
 
+.projectDetail {
+  margin-top: 10px;
+  text-align: left; }
+  .projectDetail h6 {
+    text-decoration: underline;
+    display: inline; }
+  .projectDetail .imgFullWidth {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-top: 10px; }
+  .projectDetail .imgMobile {
+    width: 25%;
+    padding: 5px; }
+  .projectDetail .imgIcons {
+    width: 45%;
+    padding: 5px; }
+  .projectDetail .floatLeft {
+    float: left; }
+  .projectDetail .floatRight {
+    float: right; }
+  .projectDetail ul {
+    list-style: none; }
+    .projectDetail ul li {
+      padding-left: 10px;
+      margin-bottom: 0; }
+
 .resumebody {
   text-align: left; }
 
