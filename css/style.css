@@ -230,6 +230,12 @@ h4, h5, h6 {
 .volunteer {
   margin-bottom: 25px; }
 
+.affiliations p {
+  font-size: 1.2em;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left; }
+
 .interest {
   float: left;
   text-align: center;
