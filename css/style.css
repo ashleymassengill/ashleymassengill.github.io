@@ -72,13 +72,12 @@
   width: 100%;
   display: none; }
   .mobileNav .socialnavMobile {
-    float: left;
     padding-left: 5%;
     width: 225px; }
     .mobileNav .socialnavMobile ul {
       list-style: none;
       margin: 0px;
-      margin-top: 4%; }
+      padding-left: 0; }
       .mobileNav .socialnavMobile ul li {
         display: inline;
         margin-right: 4%; }
@@ -86,13 +85,11 @@
           font-size: 1.6em;
           color: #2E1122; }
   .mobileNav .menunavMobile {
-    float: right;
     padding-right: 5%; }
     .mobileNav .menunavMobile ul {
       list-style: none;
       background-color: #8F8F8F;
       margin: 0px;
-      margin-top: 10px;
       text-align: right; }
       .mobileNav .menunavMobile ul .fa {
         font-size: 2em;
@@ -297,6 +294,12 @@ h4, h5, h6 {
   clear: both; }
 
 .socialcontact {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
   text-align: center; }
   .socialcontact div {
     padding-top: 10px;
@@ -437,4 +440,11 @@ body {
   .sitenav {
     display: none; }
   .mobileNav {
-    display: block; } }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; } }
