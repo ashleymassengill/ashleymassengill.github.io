@@ -7,14 +7,18 @@
   height: 100%;
   width: 74px;
   background-color: #8F8F8F;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 .mainnav ul {
   list-style: none; }
   .mainnav ul li {
     list-style: none; }
+
 .mainnav a {
   text-decoration: none;
   font-size: 24px;
@@ -30,7 +34,8 @@
       margin: 0 auto;
       padding-top: 3px;
       height: 45px;
-      object-fit: contain; }
+      -o-object-fit: contain;
+         object-fit: contain; }
     .mainnav a div p {
       display: none;
       text-align: right;
@@ -106,15 +111,19 @@
 
 .aboutpage * {
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
   text-align: left; }
+
 .aboutpage p {
   margin: 0px;
   font-size: 1.05em; }
+
 .aboutpage .columns {
   margin-left: 2%;
   margin-bottom: 1%; }
+
 .aboutpage .aboutText {
   border: 4px solid #94376D;
   padding: 10px; }
@@ -167,12 +176,15 @@ h4, h5, h6 {
 .remodal .fa {
   font-size: 1.3em;
   color: #565656; }
+
 .remodal a {
   text-decoration: none;
   font-size: 1.1em;
   color: #94376D; }
+
 .remodal a:hover {
   text-decoration: underline; }
+
 .remodal .modalProjectDetail {
   max-width: 800px; }
 
@@ -223,18 +235,23 @@ h4, h5, h6 {
 .entry h6 {
   font-size: 1.25em;
   margin-bottom: 0px; }
+
 .entry .entryTitle, .entry .floatLeft {
   float: left; }
+
 .entry .entryDateLoc {
   float: right;
   font-weight: 300;
   font-size: 1.15em; }
+
 .entry .dateLoc {
   font-weight: 300;
   font-size: 1.15em; }
+
 .entry ul {
   list-style: none;
   padding-left: 15px; }
+
 .entry p {
   padding-left: 15px;
   margin-bottom: 5px; }
@@ -272,7 +289,8 @@ h4, h5, h6 {
   margin-right: 40px; }
   .interest img {
     height: 38px;
-    object-fit: contain; }
+    -o-object-fit: contain;
+       object-fit: contain; }
 
 .clearFloat {
   clear: both; }
@@ -379,11 +397,13 @@ body {
 .logo img {
   margin-top: 10px;
   height: 150px;
-  object-fit: contain; }
+  -o-object-fit: contain;
+     object-fit: contain; }
 
 .headshot img {
   width: 475px;
-  object-fit: contain; }
+  -o-object-fit: contain;
+     object-fit: contain; }
 
 .homedesc p {
   margin-top: 40px;
@@ -394,11 +414,10 @@ body {
     margin: 18% 5% 5% 5%;
     padding: 7%;
     background-color: white; }
-
   .headshot img {
     width: 100%;
-    object-fit: contain; }
-
+    -o-object-fit: contain;
+       object-fit: contain; }
   .entry .entryTitle, .entry .floatLeft {
     float: none; }
   .entry .entryDateLoc {
@@ -407,17 +426,11 @@ body {
     padding-left: 0px; }
   .entry p {
     padding-left: 0px; }
-
   .mobileHide {
     display: none; }
-
   .socialcontact {
     display: none; }
-
   .sitenav {
     display: none; }
-
   .mobileNav {
     display: block; } }
-
-/*# sourceMappingURL=style.css.map */
