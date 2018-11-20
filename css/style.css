@@ -229,6 +229,7 @@ h4, h5, h6 {
   color: #94376D; }
 
 h5 {
+  font-size: 20px;
   margin: 25px 0 10px;
   text-decoration: underline; }
 
@@ -243,17 +244,17 @@ h5 {
       flex-wrap: wrap; }
 
 .entry h6 {
-  font-size: 1.25em;
+  font-size: 18px;
   margin-bottom: 0px;
   margin: 25px 0 15px; }
 
 .entry .entryDateLoc {
   font-weight: 300;
-  font-size: 1.15em; }
+  font-size: 18px; }
 
 .entry .dateLoc {
   font-weight: 300;
-  font-size: 1.15em; }
+  font-size: 18px; }
 
 .entry ul {
   list-style: none;
