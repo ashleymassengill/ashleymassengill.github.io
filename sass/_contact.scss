@@ -104,3 +104,12 @@
     }
   }
 }
+
+.jotform-form{
+  .formFooter{
+    display: none !important;
+  }
+  .formFooter-heightMask{
+    height: 0 !important;
+  }
+}

@@ -20,9 +20,6 @@
     font-size: 1.25em;
     margin-bottom: 0px;
   }
-  .entryTitle, .floatLeft{
-    float: left;
-  }
   .entryDateLoc{
     float: right;
     font-weight: 300;
@@ -39,6 +36,16 @@
   p{
     padding-left: 15px;
     margin-bottom: 5px;
+  }
+  &.strengths{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    >p{
+      i{
+        padding-right: 5px;
+      }
+    }
   }
 }
 

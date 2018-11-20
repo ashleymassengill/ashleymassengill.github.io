@@ -234,9 +234,6 @@ h4, h5, h6 {
   font-size: 1.25em;
   margin-bottom: 0px; }
 
-.entry .entryTitle, .entry .floatLeft {
-  float: left; }
-
 .entry .entryDateLoc {
   float: right;
   font-weight: 300;
@@ -253,6 +250,16 @@ h4, h5, h6 {
 .entry p {
   padding-left: 15px;
   margin-bottom: 5px; }
+
+.entry.strengths {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .entry.strengths > p i {
+    padding-right: 5px; }
 
 .projectDutyList {
   margin-bottom: 5px; }
@@ -385,6 +392,12 @@ h4, h5, h6 {
     .maincontact .address p a:hover {
       text-decoration: underline;
       color: #94376D; }
+
+.jotform-form .formFooter {
+  display: none !important; }
+
+.jotform-form .formFooter-heightMask {
+  height: 0 !important; }
 
 body {
   background-color: #F5F5F5;
