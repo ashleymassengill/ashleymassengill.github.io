@@ -23,19 +23,23 @@ body{
 
 .logo img{
   margin-top: 10px;
-  height: 150px;
+  height: 125px;
   object-fit: contain;
   }
 
 .headshot img{
-  width: 475px;
+  width: 375px;
   object-fit: contain;
 }
 
-.homedesc p{
+.homedesc{
+  max-width: 850px;
+  margin: 0 auto;
+  p{
     margin-top: 40px;
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
+}
 
 // .pages{
 //   padding-top: 10px;
