@@ -115,13 +115,32 @@
   box-sizing: border-box;
   text-align: left; }
 
+.aboutpage .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.aboutpage h4 {
+  margin-top: 0; }
+
 .aboutpage p {
   margin: 0px;
   font-size: 1.05em; }
 
 .aboutpage .columns {
   margin-left: 2%;
-  margin-bottom: 1%; }
+  margin-bottom: 1%;
+  -ms-flex: 1 0;
+      flex: 1 0; }
+  .aboutpage .columns.six {
+    min-width: 45%; }
+  .aboutpage .columns.two {
+    width: 15%; }
 
 .aboutpage .aboutText {
   border: 4px solid #94376D;

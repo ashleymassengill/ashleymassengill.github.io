@@ -5,6 +5,15 @@
     box-sizing: border-box;
     text-align: left;
   }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  h4{
+    margin-top: 0;
+  }
   p{
     margin: 0px;
     font-size: 1.05em;
@@ -12,6 +21,13 @@
   .columns{
     margin-left: 2%;
     margin-bottom: 1%;
+    flex: 1 0;
+    &.six{
+      min-width: 45%;
+    }
+    &.two{
+      width: 15%;
+    }
   }
   .aboutText{
     border: 4px solid $pink;
