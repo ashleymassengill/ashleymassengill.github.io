@@ -77,13 +77,17 @@ h5{
 }
 
 .techList{
-  min-height: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // min-height: 340px;
   margin-bottom: 20px;
   p{
     font-size: 1.2em;
     padding: 7px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    margin: 5px;
     border: 2px solid $darkgray;
     ;
   }
@@ -108,17 +112,12 @@ h5{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.interest{
-  text-align: center;
-  margin-right: 40px;
-  img{
-    height: 38px;
-    object-fit: contain;
+  .interest{
+    text-align: center;
+    margin-right: 40px;
+    img{
+      height: 38px;
+      object-fit: contain;
+    }
   }
-}
-
-.clearFloat{
-  clear: both;
 }

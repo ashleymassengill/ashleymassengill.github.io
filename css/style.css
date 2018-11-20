@@ -288,13 +288,21 @@ h5 {
       font-size: 12px; }
 
 .techList {
-  min-height: 340px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 20px; }
   .techList p {
     font-size: 1.2em;
     padding: 7px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    margin: 5px;
     border: 2px solid #565656; }
 
 .volunteer {
@@ -316,17 +324,13 @@ h5 {
       align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-
-.interest {
-  text-align: center;
-  margin-right: 40px; }
-  .interest img {
-    height: 38px;
-    -o-object-fit: contain;
-       object-fit: contain; }
-
-.clearFloat {
-  clear: both; }
+  .interest-wrap .interest {
+    text-align: center;
+    margin-right: 40px; }
+    .interest-wrap .interest img {
+      height: 38px;
+      -o-object-fit: contain;
+         object-fit: contain; }
 
 .socialcontact {
   display: -ms-flexbox;
