@@ -227,15 +227,16 @@ h4, h5, h6 {
   text-decoration: underline;
   color: #94376D; }
 
-.sectionHead {
+h5 {
+  margin: 25px 0 10px;
   text-decoration: underline; }
 
 .entry h6 {
   font-size: 1.25em;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  margin: 25px 0 15px; }
 
 .entry .entryDateLoc {
-  float: right;
   font-weight: 300;
   font-size: 1.15em; }
 
@@ -258,8 +259,10 @@ h4, h5, h6 {
       align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  .entry.strengths > p i {
-    padding-right: 5px; }
+  .entry.strengths > p {
+    margin-top: .5em; }
+    .entry.strengths > p i {
+      padding-right: 5px; }
 
 .projectDutyList {
   margin-bottom: 5px; }
@@ -276,8 +279,7 @@ h4, h5, h6 {
     padding: 7px;
     margin-right: 5px;
     margin-bottom: 10px;
-    border: 2px solid #565656;
-    float: left; }
+    border: 2px solid #565656; }
 
 .volunteer {
   margin-bottom: 25px; }
@@ -285,11 +287,9 @@ h4, h5, h6 {
 .affiliations p {
   font-size: 1.2em;
   margin-right: 20px;
-  margin-bottom: 10px;
-  float: left; }
+  margin-bottom: 10px; }
 
 .interest {
-  float: left;
   text-align: center;
   margin-right: 40px; }
   .interest img {

@@ -11,7 +11,8 @@
   color: $pink;
 }
 
-.sectionHead{
+h5{
+  margin: 25px 0 10px;
   text-decoration: underline;
 }
 
@@ -19,9 +20,10 @@
   h6{
     font-size: 1.25em;
     margin-bottom: 0px;
+    margin: 25px 0 15px;
   }
   .entryDateLoc{
-    float: right;
+    ;
     font-weight: 300;
     font-size: 1.15em;
   }
@@ -42,6 +44,7 @@
     align-items: center;
     flex-wrap: wrap;
     >p{
+      margin-top: .5em;
       i{
         padding-right: 5px;
       }
@@ -68,7 +71,7 @@
     margin-right: 5px;
     margin-bottom: 10px;
     border: 2px solid $darkgray;
-    float: left;
+    ;
   }
 }
 
@@ -81,12 +84,12 @@
     font-size: 1.2em;
     margin-right: 20px;
     margin-bottom: 10px;
-    float: left;
+    ;
   }
 }
 
 .interest{
-  float: left;
+  ;
   text-align: center;
   margin-right: 40px;
   img{
