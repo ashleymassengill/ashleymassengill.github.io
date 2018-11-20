@@ -232,6 +232,16 @@ h5 {
   margin: 25px 0 10px;
   text-decoration: underline; }
 
+.entry .head {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .entry h6 {
   font-size: 1.25em;
   margin-bottom: 0px;
@@ -248,6 +258,10 @@ h5 {
 .entry ul {
   list-style: none;
   padding-left: 15px; }
+  .entry ul li {
+    padding: 5px 0; }
+  .entry ul.projectDutyList li {
+    padding: 5px; }
 
 .entry p {
   padding-left: 15px;
@@ -289,6 +303,18 @@ h5 {
   font-size: 1.2em;
   margin-right: 20px;
   margin-bottom: 10px; }
+
+.interest-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .interest {
   text-align: center;

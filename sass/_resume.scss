@@ -17,13 +17,18 @@ h5{
 }
 
 .entry{
+  .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
   h6{
     font-size: 1.25em;
     margin-bottom: 0px;
     margin: 25px 0 15px;
   }
   .entryDateLoc{
-    ;
     font-weight: 300;
     font-size: 1.15em;
   }
@@ -34,6 +39,14 @@ h5{
   ul{
     list-style: none;
     padding-left: 15px;
+    li{
+      padding: 5px 0;
+    }
+    &.projectDutyList{
+      li{
+        padding: 5px;
+      }
+    }
   }
   p{
     padding-left: 15px;
@@ -88,8 +101,15 @@ h5{
   }
 }
 
+.interest-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .interest{
-  ;
   text-align: center;
   margin-right: 40px;
   img{
