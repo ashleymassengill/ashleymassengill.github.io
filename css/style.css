@@ -228,6 +228,19 @@ h4, h5, h6 {
   text-decoration: underline;
   color: #94376D; }
 
+.with-columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .with-columns .flexcolumn1 {
+    max-width: 63%; }
+  .with-columns .flexcolumn2 {
+    max-width: 33%;
+    padding-right: 20px; }
+
 h5 {
   font-size: 20px;
   margin: 25px 0 10px;
@@ -261,8 +274,13 @@ h5 {
   padding-left: 15px; }
   .entry ul li {
     padding: 5px 0; }
-  .entry ul.projectDutyList li {
-    padding: 5px; }
+  .entry ul.projectDutyList {
+    margin-bottom: 5px; }
+    .entry ul.projectDutyList li {
+      display: inline;
+      padding: 5px; }
+      .entry ul.projectDutyList li .fa {
+        font-size: 12px; }
 
 .entry p {
   padding-left: 15px;
@@ -280,20 +298,34 @@ h5 {
     .entry.strengths > p i {
       padding-right: 5px; }
 
-.projectDutyList {
-  margin-bottom: 5px; }
-  .projectDutyList li {
-    display: inline; }
-    .projectDutyList li .fa {
-      font-size: 12px; }
+.entry.work h6 {
+  margin: 10px 0 5px; }
+
+.entry.work ul {
+  margin-top: 7px; }
+  .entry.work ul li {
+    list-style: disc;
+    margin-left: 20px; }
+
+.entry.education h6 {
+  margin: 10px 0 5px; }
+
+.entry.education + .education {
+  border-top: solid 1px #dbdbdb; }
+
+.entry.volunteer h6 {
+  margin: 10px 0 5px; }
+
+.entry.volunteer + .volunteer {
+  border-top: solid 1px #dbdbdb; }
 
 .techList {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-wrap: wrap;
@@ -304,9 +336,6 @@ h5 {
     padding: 7px;
     margin: 5px;
     border: 2px solid #565656; }
-
-.volunteer {
-  margin-bottom: 25px; }
 
 .affiliations p {
   font-size: 1.2em;
