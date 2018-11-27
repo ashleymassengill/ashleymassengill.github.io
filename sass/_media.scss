@@ -2,9 +2,9 @@
 @media only screen and (min-device-width : 1px) and (max-device-width : 767px) {
 // all pages
   .pagebody{
-  margin: 18% 5% 5% 5%;
-  padding: 7%;
-  background-color: white;
+    margin: 18% 5% 5% 5%;
+    padding: 7%;
+    background-color: white;
   }
 // home page
   .headshot img{
@@ -42,5 +42,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  //projects
+  .projectinfo{
+    &.left, &.right{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }

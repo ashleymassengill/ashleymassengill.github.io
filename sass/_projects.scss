@@ -32,7 +32,7 @@ h4, h5, h6{
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   &.left{
     flex-direction: row;
     text-align: left;
@@ -52,18 +52,15 @@ h4, h5, h6{
     height: auto;
   }
   p{
-    font-size: 1.15em;
+    font-size: 16px;
   }
   a{
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 17px;
     color: $pink;
     &:hover{
+      color: $burgandy;
       text-decoration: underline;
     }
   }
-}
-
-.projectDetail{
-
 }
