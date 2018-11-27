@@ -160,7 +160,6 @@ h4, h5, h6 {
   margin-bottom: 50px; }
   .currentDesc a, .future p a {
     text-decoration: none;
-    font-size: 1.1em;
     color: #94376D; }
   .currentDesc a:hover, .future p a:hover {
     text-decoration: underline; }
