@@ -147,7 +147,8 @@
   padding: 10px; }
 
 h4, h5, h6 {
-  font-weight: 500; }
+  font-weight: 500;
+  color: #2E1122; }
 
 .current, .future {
   width: 90%;
@@ -164,81 +165,40 @@ h4, h5, h6 {
   .currentDesc a:hover, .future p a:hover {
     text-decoration: underline; }
 
-.projectspage .six.columns.offset-by-three.columns {
-  max-width: 50%;
-  margin: 0 auto; }
-
-.projectLogo {
-  width: 300px; }
-
-.projects {
-  box-sizing: border-box;
-  border: 3px solid #2E1122;
-  background: #F5F5F5;
-  margin-bottom: 8%;
-  min-height: 505px; }
-  .projects img {
-    height: 275px;
-    width: 100%; }
-
 .projectinfo {
-  margin: 0 auto;
+  box-sizing: border-box;
+  background: #F5F5F5;
+  margin: 0 auto 20px;
   padding: 10px 15px;
-  padding-top: 20px; }
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .projectinfo.left {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    text-align: left; }
+    .projectinfo.left .projectDetail {
+      padding-left: 15px; }
+  .projectinfo.right {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    text-align: right; }
+    .projectinfo.right .projectDetail {
+      padding-right: 15px; }
+  .projectinfo img {
+    max-width: 200px;
+    height: auto; }
   .projectinfo p {
-    text-align: left;
     font-size: 1.15em; }
   .projectinfo a {
     text-decoration: none;
     font-size: 1.3em;
     color: #94376D; }
-  .projectinfo a:hover {
-    text-decoration: underline; }
-
-.remodal .fa {
-  font-size: 1.3em;
-  color: #565656; }
-
-.remodal a {
-  text-decoration: none;
-  font-size: 1.1em;
-  color: #94376D; }
-
-.remodal a:hover {
-  text-decoration: underline; }
-
-.remodal .modalProjectDetail {
-  max-width: 800px; }
-
-.projectDetail {
-  margin-top: 10px;
-  text-align: left;
-  font-size: 1.1em; }
-  .projectDetail h6 {
-    text-decoration: underline;
-    font-size: 1.2em;
-    display: inline;
-    color: #2E1122; }
-  .projectDetail .imgFullWidth {
-    width: 95%;
-    margin: 0 auto;
-    padding: 5px;
-    padding-top: 10px; }
-  .projectDetail .imgMobile {
-    width: 25%;
-    padding: 5px; }
-  .projectDetail .imgIcons {
-    width: 45%;
-    padding: 5px; }
-  .projectDetail .floatLeft {
-    float: left; }
-  .projectDetail .floatRight {
-    float: right; }
-  .projectDetail ul {
-    list-style: none; }
-    .projectDetail ul li {
-      padding-left: 10px;
-      margin-bottom: 0; }
+    .projectinfo a:hover {
+      text-decoration: underline; }
 
 .resumebody {
   text-align: left; }

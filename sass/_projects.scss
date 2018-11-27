@@ -3,6 +3,7 @@
 
 h4, h5, h6{
   font-weight: 500;
+  color: $burgandy;
 }
 
 .current, .future{
@@ -24,100 +25,45 @@ h4, h5, h6{
   }
 }
 
-.projectspage{
-  .six.columns.offset-by-three.columns{
-    max-width: 50%;
-    margin: 0 auto;
-  }
-}
-
-.projectLogo{
-  width: 300px;
-}
-
-.projects{
-  box-sizing: border-box;
-  border: 3px solid $burgandy;
-  background: $lightgray;
-  margin-bottom: 8%;
-  min-height: 505px;
-  img{
-    height: 275px;
-    width: 100%;
-    }
-}
-
 .projectinfo{
-  margin: 0 auto;
+  box-sizing: border-box;
+  background: $lightgray;
+  margin: 0 auto 20px;
   padding: 10px 15px;
-  padding-top: 20px;
-  p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &.left{
+    flex-direction: row;
     text-align: left;
+    .projectDetail{
+      padding-left: 15px;
+    }
+  }
+  &.right{
+    flex-direction: row-reverse;
+    text-align: right;
+    .projectDetail{
+      padding-right: 15px;
+    }
+  }
+  img{
+    max-width: 200px;
+    height: auto;
+  }
+  p{
     font-size: 1.15em;
   }
   a{
     text-decoration: none;
     font-size: 1.3em;
     color: $pink;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-}
-
-.remodal{
-  .fa{
-    font-size: 1.3em;
-    color: $darkgray;
-  }
-  a{
-    text-decoration: none;
-    font-size: 1.1em;
-    color: $pink;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-  .modalProjectDetail{
-    max-width: 800px;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 }
 
 .projectDetail{
-  margin-top: 10px;
-  text-align: left;
-  font-size: 1.1em;
-  h6{
-    text-decoration: underline;
-    font-size: 1.2em;
-    display: inline;
-    color: $burgandy;
-  }
-  .imgFullWidth{
-    width: 95%;
-    margin: 0 auto;
-    padding: 5px;
-    padding-top: 10px;
-  }
-  .imgMobile{
-    width: 25%;
-    padding: 5px;
-  }
-  .imgIcons{
-    width: 45%;
-    padding: 5px;
-  }
-  .floatLeft{
-    float: left;
-  }
-  .floatRight{
-    float: right;
-  }
-  ul{
-    list-style: none;
-    li{
-      padding-left: 10px;
-      margin-bottom: 0;
-    }
-  }
+
 }
