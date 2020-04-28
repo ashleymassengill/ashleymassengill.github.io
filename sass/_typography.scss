@@ -1,6 +1,7 @@
 h1{
   font-family: $font-serif;
   font-size: 4rem;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 3rem;
@@ -9,7 +10,7 @@ h1{
 h2{
   font-family: $font-serif;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 2rem;
@@ -18,7 +19,7 @@ h2{
 h3{
   font-family: $font-sans;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 1.5rem;
@@ -27,7 +28,7 @@ h3{
 h4{
   font-family: $font-sans;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 1.25rem;
@@ -36,7 +37,7 @@ h4{
 h5{
   font-family: $font-sans;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 18px;
@@ -45,24 +46,36 @@ h5{
 h6{
   font-family: $font-sans;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 16px 0;
   @media (max-width: 767px){
     font-size: 1rem;
   }
 }
+
 p{
   font-family: $font-sans;
   font-size: 18px;
+  font-weight: 400;
   margin: 16px 0;
-  &.ps{
-    font-size: 15px;
-    margin-top: 2rem;
-  }
   @media (max-width: 767px){
     font-size: 1rem;
     line-height: 1.25;
   }
+}
+
+a{
+  @include transition;
+}
+
+ul{
+  li{
+    font-size: 1rem;
+  }
+}
+
+.fa{
+  font-size: 20px;
 }
 
 .glitch{
