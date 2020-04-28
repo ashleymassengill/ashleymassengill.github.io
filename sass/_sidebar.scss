@@ -1,79 +1,79 @@
-@import "variables.scss";
-@import "mixins.scss";
-
-.sitenav{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  padding: 10px;
-  padding-top: 20px;
-  height: 100%;
-  width: 74px;
-  background-color: $medgray;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.mainnav{
-  ul{
-    list-style: none;
-    li{
-      list-style: none;
-    }
-  }
-  a{
-    text-decoration: none;
-    font-size: 24px;
-    color: $burgandy;
-    div{
-      margin: 10px;
-      border: 2px solid $pink;
-      background-color: white;
-      height: 50px;
-      width: 50px;
-      img{
-        display: block;
-        margin: 0 auto;
-        padding-top: 3px;
-        height: 45px;
-        object-fit: contain;
-      }
-        p{
-          display: none;
-          text-align: right;
-          padding-right: 9px;
-          padding-top: 4px;
-          margin: 7px 0;
-        }
-      }
-      div:hover{
-        width: 125px;
-        transition: width .25s;
-        img{
-          display: none;
-        }
-        p{
-          display: block;
-          color: $darkgray;
-        }
-      }
-      .active{
-        border-color: $lime;
-      }
-    }
-  }
-
-.socialnav{
-  box-sizing: border-box;
-  margin: 35%;
-  margin-bottom: 60%;
-  .fa{
-    margin-top: 35%;
-    font-size: 1.4em;
-    color: $burgandy;
-  }
-  .fa:hover{
-    color: $lime;
-  }
-}
+// @import "variables.scss";
+// @import "mixins.scss";
+//
+// .sitenav{
+//   position: fixed;
+//   top: 0px;
+//   left: 0px;
+//   padding: 10px;
+//   padding-top: 20px;
+//   height: 100%;
+//   width: 74px;
+//   background-color: $medgray;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+//
+// .mainnav{
+//   ul{
+//     list-style: none;
+//     li{
+//       list-style: none;
+//     }
+//   }
+//   a{
+//     text-decoration: none;
+//     font-size: 24px;
+//     color: $burgandy;
+//     div{
+//       margin: 10px;
+//       border: 2px solid $pink;
+//       background-color: white;
+//       height: 50px;
+//       width: 50px;
+//       img{
+//         display: block;
+//         margin: 0 auto;
+//         padding-top: 3px;
+//         height: 45px;
+//         object-fit: contain;
+//       }
+//         p{
+//           display: none;
+//           text-align: right;
+//           padding-right: 9px;
+//           padding-top: 4px;
+//           margin: 7px 0;
+//         }
+//       }
+//       div:hover{
+//         width: 125px;
+//         transition: width .25s;
+//         img{
+//           display: none;
+//         }
+//         p{
+//           display: block;
+//           color: $darkgray;
+//         }
+//       }
+//       .active{
+//         border-color: $lime;
+//       }
+//     }
+//   }
+//
+// .socialnav{
+//   box-sizing: border-box;
+//   margin: 35%;
+//   margin-bottom: 60%;
+//   .fa{
+//     margin-top: 35%;
+//     font-size: 1.4em;
+//     color: $burgandy;
+//   }
+//   .fa:hover{
+//     color: $lime;
+//   }
+// }

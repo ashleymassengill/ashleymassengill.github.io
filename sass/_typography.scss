@@ -1,0 +1,101 @@
+h1{
+  font-family: $font-serif;
+  font-size: 4rem;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 3rem;
+  }
+}
+h2{
+  font-family: $font-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 2rem;
+  }
+}
+h3{
+  font-family: $font-sans;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 1.5rem;
+  }
+}
+h4{
+  font-family: $font-sans;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 1.25rem;
+  }
+}
+h5{
+  font-family: $font-sans;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 18px;
+  }
+}
+h6{
+  font-family: $font-sans;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px 0;
+  @media (max-width: 767px){
+    font-size: 1rem;
+  }
+}
+p{
+  font-family: $font-sans;
+  font-size: 18px;
+  margin: 16px 0;
+  &.ps{
+    font-size: 15px;
+    margin-top: 2rem;
+  }
+  @media (max-width: 767px){
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+.glitch{
+  position: relative;
+  letter-spacing: 1.5px;
+  &:before, &:after{
+    @include glitch;
+  }
+  &:before{
+    @include glitch-1;
+  }
+  &:after{
+    @include glitch-2;
+  }
+}
+
+.glitch-hover{
+  position: relative;
+  &:before, &:after{
+    @include glitch;
+  }
+  &:before{
+    @include glitch-1-hover;
+  }
+  &:after{
+    @include glitch-2-hover;
+  }
+  &:hover{
+    &:before{
+      animation: glitch-1 2s infinite;
+    }
+    &:after{
+      animation: glitch-2 2s infinite;
+    }
+  }
+}

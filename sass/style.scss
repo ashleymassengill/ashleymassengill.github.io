@@ -1,5 +1,9 @@
+@import "layout.scss";
 @import "variables.scss";
+@import "color.scss";
 @import "mixins.scss";
+@import "typography.scss";
+@import "base.scss";
 @import "sidebar.scss";
 @import "mobilenav.scss";
 @import "about.scss";
@@ -7,39 +11,39 @@
 @import "resume.scss";
 @import "contact.scss";
 
-body{
-  background-color: $lightgray;
-  color: $darkgray;
-  font-family: 'helvetica neue', sans-serif;
-}
-
-.pagebody{
-  text-align: center;
-  margin: 0 auto;
-  margin: 33px 10% 0 16%;
-  padding: 10px 15px;
-  background-color: white;
-}
-
-.logo img{
-  margin-top: 10px;
-  height: 125px;
-  object-fit: contain;
-  }
-
-.headshot img{
-  width: 375px;
-  object-fit: contain;
-}
-
-.homedesc{
-  max-width: 850px;
-  margin: 0 auto;
-  p{
-    margin-top: 40px;
-    font-size: 1.5em;
-  }
-}
+// body{
+//   background-color: $lightgray;
+//   color: $darkgray;
+//   font-family: 'helvetica neue', sans-serif;
+// }
+//
+// .pagebody{
+//   text-align: center;
+//   margin: 0 auto;
+//   margin: 33px 10% 0 16%;
+//   padding: 10px 15px;
+//   background-color: white;
+// }
+//
+// .logo img{
+//   margin-top: 10px;
+//   height: 125px;
+//   object-fit: contain;
+//   }
+//
+// .headshot img{
+//   width: 375px;
+//   object-fit: contain;
+// }
+//
+// .homedesc{
+//   max-width: 850px;
+//   margin: 0 auto;
+//   p{
+//     margin-top: 40px;
+//     font-size: 1.5em;
+//   }
+// }
 
 // .pages{
 //   padding-top: 10px;

@@ -3,3 +3,55 @@
     top: 50%;
     transform: translateY(-50%);
   }
+
+
+
+//Glitch
+@keyframes glitch-1{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+@keyframes glitch-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@mixin glitch{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0,900px,0,0);
+  overflow: hidden;
+}
+
+@mixin glitch-1{
+  left: 3px;
+  text-shadow: 3px 0 $secondary-light;
+  animation: glitch-1 3s infinite;
+}
+
+@mixin glitch-2{
+  left: -3px;
+  text-shadow: -3px 0 $secondary-dark;
+  animation: glitch-2 3s infinite;
+}
+
+@mixin glitch-1-hover{
+  left: 3px;
+  text-shadow: 3px 0 $secondary-light;
+}
+
+@mixin glitch-2-hover{
+  left: -3px;
+  text-shadow: -3px 0 $secondary-dark;
+}
