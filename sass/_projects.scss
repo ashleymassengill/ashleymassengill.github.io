@@ -1,65 +1,46 @@
-// @import "variables.scss";
-// @import "mixins.scss";
-//
-// h4, h5, h6{
-//   font-weight: 500;
-//   color: $burgandy;
-// }
-//
-// .current, .future{
-//   width: 90%;
-//   margin: 0 auto;
-// }
-//
-// .currentDesc, .future p{
-//   text-align: left;
-//   font-size: 1.15em;
-//   margin-bottom: 50px;
-//   a{
-//     text-decoration: none;
-//     color: $pink;
-//   }
-//   a:hover{
-//     text-decoration: underline;
-//   }
-// }
-//
-// .projectinfo{
-//   box-sizing: border-box;
-//   background: $lightgray;
-//   margin: 0 auto 20px;
-//   padding: 10px 15px;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: flex-start;
-//   &.left{
-//     flex-direction: row;
-//     text-align: left;
-//     .projectDetail{
-//       padding-left: 15px;
-//     }
-//   }
-//   &.right{
-//     flex-direction: row-reverse;
-//     text-align: right;
-//     .projectDetail{
-//       padding-right: 15px;
-//     }
-//   }
-//   img{
-//     max-width: 200px;
-//     height: auto;
-//   }
-//   p{
-//     font-size: 16px;
-//   }
-//   a{
-//     text-decoration: none;
-//     font-size: 17px;
-//     color: $pink;
-//     &:hover{
-//       color: $burgandy;
-//       text-decoration: underline;
-//     }
-//   }
-// }
+.projects{
+  background-color: $primary-dark;
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+    .content{
+      background-color: $primary;
+      background-image: linear-gradient(135deg, rgba(16,30,38,1) 0%, rgba(16,30,38,1) 25%, rgba(23,57,61,1) 25%, rgba(23,57,61,1) 100%);
+      padding: 36px 18px 36px 300px;
+      text-align: right;
+      position: relative;
+      ul{
+        list-style: none;
+        > li{
+          font-size: 1.5rem;
+          a{
+            color: $tertiary;
+            text-decoration: none;
+            @include transition;
+            &:hover{
+              color: $secondary;
+            }
+          }
+          + li{
+            margin-top: 1rem;
+          }
+          > ul{
+            font-family: $font-sans;
+            li{
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

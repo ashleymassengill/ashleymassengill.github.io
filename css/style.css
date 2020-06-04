@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap");
 @keyframes glitch-1 {
   0% {
-    clip: rect(41px, 9999px, 49px, 0); }
+    clip: rect(48px, 9999px, 22px, 0); }
   5% {
-    clip: rect(14px, 9999px, 64px, 0); }
+    clip: rect(36px, 9999px, 94px, 0); }
   10% {
-    clip: rect(69px, 9999px, 31px, 0); }
+    clip: rect(17px, 9999px, 70px, 0); }
   15% {
-    clip: rect(37px, 9999px, 68px, 0); }
+    clip: rect(22px, 9999px, 76px, 0); }
   20% {
-    clip: rect(9px, 9999px, 57px, 0); }
+    clip: rect(43px, 9999px, 94px, 0); }
   25% {
-    clip: rect(9px, 9999px, 66px, 0); }
+    clip: rect(3px, 9999px, 79px, 0); }
   30% {
-    clip: rect(8px, 9999px, 86px, 0); }
+    clip: rect(63px, 9999px, 51px, 0); }
   35% {
-    clip: rect(89px, 9999px, 34px, 0); }
+    clip: rect(3px, 9999px, 4px, 0); }
   40% {
-    clip: rect(63px, 9999px, 78px, 0); }
+    clip: rect(16px, 9999px, 59px, 0); }
   45% {
-    clip: rect(31px, 9999px, 49px, 0); }
+    clip: rect(42px, 9999px, 64px, 0); }
   50% {
-    clip: rect(4px, 9999px, 49px, 0); }
+    clip: rect(76px, 9999px, 61px, 0); }
   55% {
-    clip: rect(71px, 9999px, 79px, 0); }
+    clip: rect(96px, 9999px, 44px, 0); }
   60% {
-    clip: rect(95px, 9999px, 24px, 0); }
+    clip: rect(68px, 9999px, 37px, 0); }
   65% {
-    clip: rect(9px, 9999px, 62px, 0); }
+    clip: rect(60px, 9999px, 10px, 0); }
   70% {
-    clip: rect(13px, 9999px, 19px, 0); }
+    clip: rect(9px, 9999px, 38px, 0); }
   75% {
-    clip: rect(79px, 9999px, 52px, 0); }
+    clip: rect(27px, 9999px, 57px, 0); }
   80% {
-    clip: rect(98px, 9999px, 12px, 0); }
+    clip: rect(94px, 9999px, 91px, 0); }
   85% {
-    clip: rect(50px, 9999px, 36px, 0); }
+    clip: rect(48px, 9999px, 14px, 0); }
   90% {
-    clip: rect(25px, 9999px, 1px, 0); }
+    clip: rect(86px, 9999px, 83px, 0); }
   95% {
-    clip: rect(18px, 9999px, 27px, 0); }
+    clip: rect(24px, 9999px, 61px, 0); }
   100% {
-    clip: rect(1px, 9999px, 83px, 0); } }
+    clip: rect(62px, 9999px, 86px, 0); } }
 
 @keyframes glitch-2 {
   0% {
-    clip: rect(48px, 9999px, 32px, 0); }
+    clip: rect(10px, 9999px, 73px, 0); }
   5% {
-    clip: rect(99px, 9999px, 26px, 0); }
+    clip: rect(45px, 9999px, 74px, 0); }
   10% {
-    clip: rect(76px, 9999px, 59px, 0); }
+    clip: rect(61px, 9999px, 63px, 0); }
   15% {
-    clip: rect(6px, 9999px, 100px, 0); }
+    clip: rect(48px, 9999px, 30px, 0); }
   20% {
-    clip: rect(67px, 9999px, 60px, 0); }
+    clip: rect(24px, 9999px, 58px, 0); }
   25% {
-    clip: rect(6px, 9999px, 99px, 0); }
+    clip: rect(32px, 9999px, 43px, 0); }
   30% {
-    clip: rect(18px, 9999px, 67px, 0); }
+    clip: rect(27px, 9999px, 19px, 0); }
   35% {
-    clip: rect(34px, 9999px, 24px, 0); }
+    clip: rect(68px, 9999px, 91px, 0); }
   40% {
-    clip: rect(72px, 9999px, 7px, 0); }
+    clip: rect(87px, 9999px, 98px, 0); }
   45% {
-    clip: rect(95px, 9999px, 74px, 0); }
+    clip: rect(26px, 9999px, 43px, 0); }
   50% {
-    clip: rect(15px, 9999px, 62px, 0); }
+    clip: rect(66px, 9999px, 38px, 0); }
   55% {
-    clip: rect(22px, 9999px, 100px, 0); }
+    clip: rect(88px, 9999px, 15px, 0); }
   60% {
-    clip: rect(50px, 9999px, 10px, 0); }
+    clip: rect(76px, 9999px, 4px, 0); }
   65% {
-    clip: rect(20px, 9999px, 74px, 0); }
+    clip: rect(5px, 9999px, 84px, 0); }
   70% {
-    clip: rect(96px, 9999px, 26px, 0); }
+    clip: rect(26px, 9999px, 67px, 0); }
   75% {
-    clip: rect(52px, 9999px, 34px, 0); }
+    clip: rect(16px, 9999px, 94px, 0); }
   80% {
-    clip: rect(57px, 9999px, 99px, 0); }
+    clip: rect(32px, 9999px, 61px, 0); }
   85% {
-    clip: rect(84px, 9999px, 82px, 0); }
+    clip: rect(53px, 9999px, 62px, 0); }
   90% {
-    clip: rect(44px, 9999px, 2px, 0); }
+    clip: rect(9px, 9999px, 87px, 0); }
   95% {
-    clip: rect(58px, 9999px, 16px, 0); }
+    clip: rect(89px, 9999px, 18px, 0); }
   100% {
-    clip: rect(88px, 9999px, 61px, 0); } }
+    clip: rect(92px, 9999px, 50px, 0); } }
 
 h1 {
   font-family: "EB Garamond", serif;
@@ -222,8 +222,8 @@ body {
     .maintenance .container .content {
       background-color: #17393d;
       background-image: linear-gradient(135deg, #101e26 0%, #101e26 25%, #17393d 25%, #17393d 100%);
-      padding: 36px 0 36px 300px;
-      text-align: center;
+      padding: 36px 18px 36px 300px;
+      text-align: right;
       position: relative; }
       .maintenance .container .content a {
         color: white; }
@@ -244,7 +244,7 @@ body {
 .social {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   margin-top: 2rem; }
@@ -254,6 +254,40 @@ body {
       transition: all 0.3s ease-in-out; }
       .social li a i:hover {
         color: #b39e5f; }
-  @media (max-width: 991px) {
-    .social {
-      justify-content: flex-end; } }
+
+.projects {
+  background-color: #101e26;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; }
+  .projects .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px; }
+    .projects .container .content {
+      background-color: #17393d;
+      background-image: linear-gradient(135deg, #101e26 0%, #101e26 25%, #17393d 25%, #17393d 100%);
+      padding: 36px 18px 36px 300px;
+      text-align: right;
+      position: relative; }
+      .projects .container .content ul {
+        list-style: none; }
+        .projects .container .content ul > li {
+          font-size: 1.5rem; }
+          .projects .container .content ul > li a {
+            color: #b39e5f;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out; }
+            .projects .container .content ul > li a:hover {
+              color: #c22d72; }
+          .projects .container .content ul > li + li {
+            margin-top: 1rem; }
+          .projects .container .content ul > li > ul {
+            font-family: "Noto Sans JP", sans-serif; }
+            .projects .container .content ul > li > ul li {
+              font-size: 1rem; }
