@@ -7,11 +7,31 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
+  position: relative;
+  > a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    i{
+      font-size: 2rem;
+      color: white;
+      @include transition;
+      &:hover{
+        color: $tertiary;
+      }
+    }
+  }
   .container{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 60px;
+    h1{
+      text-align: right;
+      margin-bottom: 2rem;
+    }
     .content{
       background-color: $primary;
       background-image: linear-gradient(135deg, rgba(16,30,38,1) 0%, rgba(16,30,38,1) 25%, rgba(23,57,61,1) 25%, rgba(23,57,61,1) 100%);
@@ -20,24 +40,56 @@
       position: relative;
       ul{
         list-style: none;
-        > li{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          margin: 0;
+        }
+        p{
+          width: 75%;
+          margin-top: 0;
+          font-weight: 100;
+          font-size: 1rem;
+        }
+        li{
           font-size: 1.5rem;
           a{
             color: $tertiary;
             text-decoration: none;
             @include transition;
             &:hover{
-              color: $secondary;
+              color: $secondary-light;
             }
           }
           + li{
-            margin-top: 1rem;
+            margin-top: 0.5rem;
           }
-          > ul{
-            font-family: $font-sans;
-            li{
-              font-size: 1rem;
-            }
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-sm-max){
+    .container{
+      padding: 20px;
+      .content{
+        background-image: none;
+        padding: 2.5rem 1rem 2.5rem 125px;
+        text-align: right;
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max){
+    .container{
+      .content{
+        padding: 2rem 1rem;
+        ul{
+          padding-left: 0;
+          p{
+            width: 100%;
+          }
+          li{
+            font-size: 1.25rem;
           }
         }
       }
