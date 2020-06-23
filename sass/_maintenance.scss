@@ -1,28 +1,4 @@
 .maintenance{
-  background-color: $primary-dark;
-  color: $white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  .container{
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px;
-    .content{
-      background-color: $primary;
-      background-image: linear-gradient(135deg, rgba(16,30,38,1) 0%, rgba(16,30,38,1) 25%, rgba(23,57,61,1) 25%, rgba(23,57,61,1) 100%);
-      padding: 36px 18px 36px 300px;
-      text-align: right;
-      position: relative;
-      a{
-        color: white;
-      }
-    }
-  }
   @media (max-width: $screen-sm-max){
     .container{
       padding: 20px;
