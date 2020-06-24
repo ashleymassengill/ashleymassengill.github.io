@@ -1,117 +1,116 @@
 body{
   margin: 0;
-}
-
-section{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  color: $white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  .container{
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px;
-    .content{
-      background-color: transparent;
-      text-align: right;
-      position: relative;
-      padding: 36px 18px 36px 300px;
-      a{
-        color: white;
+  section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    .container{
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 60px;
+      .content{
+        background-color: transparent;
+        text-align: right;
+        position: relative;
+        padding: 36px 18px 36px 300px;
+        a{
+          color: white;
+        }
       }
     }
-  }
-  &:nth-child(1){
-    background-color: $primary-dark;
-    background-image: url(../images/textures/green-left@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+    &:nth-child(1){
+      background-color: $primary-dark;
+      background-image: url(../images/textures/green-left@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+        }
       }
     }
-  }
-  &:nth-child(2){
-    background-color: $primary-dark;
-    background-image: url(../images/textures/green-right@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+    &:nth-child(2){
+      background-color: $primary-dark;
+      background-image: url(../images/textures/green-right@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+        }
       }
     }
-  }
-  &:nth-child(3){
-    background-color: $secondary-dark;
-    background-image: url(../images/textures/pink-left@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
-        ul{
-          li{
-            a{
-              &:hover{
-                color: $primary;
+    &:nth-child(3){
+      background-color: $secondary-dark;
+      background-image: url(../images/textures/pink-left@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
+          ul{
+            li{
+              a{
+                &:hover{
+                  color: $primary;
+                }
               }
             }
           }
         }
       }
     }
-  }
-  &:nth-child(4){
-    background-color: $secondary-dark;
-    background-image: url(../images/textures/pink-right@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
-        ul{
-          li{
-            a{
-              &:hover{
-                color: $primary;
+    &:nth-child(4){
+      background-color: $secondary-dark;
+      background-image: url(../images/textures/pink-right@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
+          ul{
+            li{
+              a{
+                &:hover{
+                  color: $primary;
+                }
               }
             }
           }
         }
       }
     }
-  }
-  &:nth-child(5){
-    background-color: $tertiary;
-    background-image: url(../images/textures/gold-left@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
-        ul{
-          li{
-            a{
-              &:hover{
-                color: $secondary-dark;
+    &:nth-child(5){
+      background-color: $tertiary;
+      background-image: url(../images/textures/gold-left@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
+          ul{
+            li{
+              a{
+                &:hover{
+                  color: $secondary-dark;
+                }
               }
             }
           }
         }
       }
     }
-  }
-  &:nth-child(6){
-    background-color: $tertiary;
-    background-image: url(../images/textures/gold-right@2x.png);
-    .container{
-      .content{
-        background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
-        ul{
-          li{
-            a{
-              &:hover{
-                color: $secondary-dark;
+    &:nth-child(6){
+      background-color: $tertiary;
+      background-image: url(../images/textures/gold-right@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
+          ul{
+            li{
+              a{
+                &:hover{
+                  color: $secondary-dark;
+                }
               }
             }
           }

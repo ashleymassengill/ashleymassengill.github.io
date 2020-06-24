@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap");
 @keyframes glitch-1 {
   0% {
-    clip: rect(73px, 9999px, 25px, 0); }
+    clip: rect(36px, 9999px, 95px, 0); }
   5% {
-    clip: rect(47px, 9999px, 6px, 0); }
+    clip: rect(31px, 9999px, 74px, 0); }
   10% {
-    clip: rect(37px, 9999px, 21px, 0); }
+    clip: rect(58px, 9999px, 2px, 0); }
   15% {
-    clip: rect(23px, 9999px, 96px, 0); }
+    clip: rect(16px, 9999px, 45px, 0); }
   20% {
-    clip: rect(2px, 9999px, 76px, 0); }
+    clip: rect(15px, 9999px, 99px, 0); }
   25% {
-    clip: rect(38px, 9999px, 11px, 0); }
+    clip: rect(44px, 9999px, 84px, 0); }
   30% {
-    clip: rect(65px, 9999px, 50px, 0); }
+    clip: rect(73px, 9999px, 68px, 0); }
   35% {
-    clip: rect(9px, 9999px, 49px, 0); }
+    clip: rect(84px, 9999px, 42px, 0); }
   40% {
-    clip: rect(48px, 9999px, 83px, 0); }
+    clip: rect(57px, 9999px, 55px, 0); }
   45% {
-    clip: rect(68px, 9999px, 79px, 0); }
+    clip: rect(40px, 9999px, 60px, 0); }
   50% {
-    clip: rect(60px, 9999px, 69px, 0); }
+    clip: rect(31px, 9999px, 96px, 0); }
   55% {
-    clip: rect(14px, 9999px, 82px, 0); }
+    clip: rect(97px, 9999px, 71px, 0); }
   60% {
-    clip: rect(77px, 9999px, 21px, 0); }
+    clip: rect(50px, 9999px, 12px, 0); }
   65% {
-    clip: rect(5px, 9999px, 96px, 0); }
+    clip: rect(64px, 9999px, 9px, 0); }
   70% {
-    clip: rect(98px, 9999px, 56px, 0); }
+    clip: rect(50px, 9999px, 33px, 0); }
   75% {
-    clip: rect(6px, 9999px, 44px, 0); }
+    clip: rect(56px, 9999px, 24px, 0); }
   80% {
-    clip: rect(10px, 9999px, 29px, 0); }
+    clip: rect(87px, 9999px, 79px, 0); }
   85% {
-    clip: rect(77px, 9999px, 5px, 0); }
+    clip: rect(28px, 9999px, 65px, 0); }
   90% {
-    clip: rect(56px, 9999px, 23px, 0); }
+    clip: rect(34px, 9999px, 64px, 0); }
   95% {
-    clip: rect(80px, 9999px, 14px, 0); }
+    clip: rect(82px, 9999px, 66px, 0); }
   100% {
-    clip: rect(52px, 9999px, 16px, 0); } }
+    clip: rect(36px, 9999px, 85px, 0); } }
 
 @keyframes glitch-2 {
   0% {
-    clip: rect(41px, 9999px, 48px, 0); }
+    clip: rect(7px, 9999px, 89px, 0); }
   5% {
-    clip: rect(18px, 9999px, 79px, 0); }
+    clip: rect(14px, 9999px, 2px, 0); }
   10% {
-    clip: rect(84px, 9999px, 81px, 0); }
+    clip: rect(58px, 9999px, 5px, 0); }
   15% {
-    clip: rect(27px, 9999px, 91px, 0); }
+    clip: rect(48px, 9999px, 32px, 0); }
   20% {
-    clip: rect(71px, 9999px, 96px, 0); }
+    clip: rect(7px, 9999px, 13px, 0); }
   25% {
-    clip: rect(94px, 9999px, 91px, 0); }
+    clip: rect(22px, 9999px, 65px, 0); }
   30% {
-    clip: rect(21px, 9999px, 84px, 0); }
+    clip: rect(84px, 9999px, 58px, 0); }
   35% {
-    clip: rect(3px, 9999px, 9px, 0); }
+    clip: rect(57px, 9999px, 99px, 0); }
   40% {
-    clip: rect(62px, 9999px, 36px, 0); }
+    clip: rect(19px, 9999px, 1px, 0); }
   45% {
-    clip: rect(24px, 9999px, 71px, 0); }
+    clip: rect(2px, 9999px, 6px, 0); }
   50% {
-    clip: rect(66px, 9999px, 51px, 0); }
+    clip: rect(53px, 9999px, 86px, 0); }
   55% {
-    clip: rect(60px, 9999px, 47px, 0); }
+    clip: rect(73px, 9999px, 80px, 0); }
   60% {
-    clip: rect(50px, 9999px, 72px, 0); }
+    clip: rect(82px, 9999px, 52px, 0); }
   65% {
-    clip: rect(43px, 9999px, 71px, 0); }
+    clip: rect(17px, 9999px, 46px, 0); }
   70% {
-    clip: rect(44px, 9999px, 69px, 0); }
+    clip: rect(13px, 9999px, 30px, 0); }
   75% {
-    clip: rect(85px, 9999px, 64px, 0); }
+    clip: rect(58px, 9999px, 69px, 0); }
   80% {
-    clip: rect(7px, 9999px, 8px, 0); }
+    clip: rect(45px, 9999px, 96px, 0); }
   85% {
-    clip: rect(63px, 9999px, 56px, 0); }
+    clip: rect(28px, 9999px, 84px, 0); }
   90% {
-    clip: rect(67px, 9999px, 55px, 0); }
+    clip: rect(94px, 9999px, 67px, 0); }
   95% {
-    clip: rect(60px, 9999px, 87px, 0); }
+    clip: rect(24px, 9999px, 79px, 0); }
   100% {
-    clip: rect(26px, 9999px, 35px, 0); } }
+    clip: rect(10px, 9999px, 74px, 0); } }
 
 h1 {
   font-family: "EB Garamond", serif;
@@ -204,42 +204,83 @@ ul li {
 
 body {
   margin: 0; }
+  body section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative; }
+    body section .container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 60px; }
+      body section .container .content {
+        background-color: transparent;
+        text-align: right;
+        position: relative;
+        padding: 36px 18px 36px 300px; }
+        body section .container .content a {
+          color: white; }
+    body section:nth-child(1) {
+      background-color: #133033;
+      background-image: url(../images/textures/green-left@2x.png); }
+      body section:nth-child(1) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #17393d 45%, #17393d 100%); }
+    body section:nth-child(2) {
+      background-color: #133033;
+      background-image: url(../images/textures/green-right@2x.png); }
+      body section:nth-child(2) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #17393d 45%, #17393d 100%); }
+    body section:nth-child(3) {
+      background-color: #A82763;
+      background-image: url(../images/textures/pink-left@2x.png); }
+      body section:nth-child(3) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #c22d72 45%, #c22d72 100%); }
+        body section:nth-child(3) .container .content ul li a:hover {
+          color: #17393d; }
+    body section:nth-child(4) {
+      background-color: #A82763;
+      background-image: url(../images/textures/pink-right@2x.png); }
+      body section:nth-child(4) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #c22d72 45%, #c22d72 100%); }
+        body section:nth-child(4) .container .content ul li a:hover {
+          color: #17393d; }
+    body section:nth-child(5) {
+      background-color: #b39e5f;
+      background-image: url(../images/textures/gold-left@2x.png); }
+      body section:nth-child(5) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #b39e5f 45%, #b39e5f 100%); }
+        body section:nth-child(5) .container .content ul li a:hover {
+          color: #A82763; }
+    body section:nth-child(6) {
+      background-color: #b39e5f;
+      background-image: url(../images/textures/gold-right@2x.png); }
+      body section:nth-child(6) .container .content {
+        background-image: linear-gradient(150deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 35%, #b39e5f 45%, #b39e5f 100%); }
+        body section:nth-child(6) .container .content ul li a:hover {
+          color: #A82763; }
 
-.maintenance {
-  background-color: #101e26;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100vh;
-  width: 100vw; }
+@media (max-width: 991px) {
   .maintenance .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px; }
+    padding: 20px; }
     .maintenance .container .content {
-      background-color: #17393d;
-      background-image: linear-gradient(135deg, #101e26 0%, #101e26 25%, #17393d 25%, #17393d 100%);
-      padding: 36px 18px 36px 300px;
-      text-align: right;
-      position: relative; }
-      .maintenance .container .content a {
-        color: white; }
-  @media (max-width: 991px) {
-    .maintenance .container {
-      padding: 20px; }
-      .maintenance .container .content {
-        background-image: none;
-        padding: 2.5rem 1rem 2.5rem 125px;
-        text-align: right; } }
-  @media (max-width: 767px) {
-    .maintenance .container .content {
-      padding: 2rem 1rem 2rem 75px; }
-      .maintenance .container .content h5 span:after {
-        content: "\A";
-        white-space: pre; } }
+      background-image: none;
+      padding: 2.5rem 1rem 2.5rem 125px;
+      text-align: right; } }
+
+@media (max-width: 767px) {
+  .maintenance .container .content {
+    padding: 2rem 1rem 2rem 75px; }
+    .maintenance .container .content h5 span:after {
+      content: "\A";
+      white-space: pre; } }
 
 .social {
   display: flex;
@@ -255,77 +296,60 @@ body {
       .social li a i:hover {
         color: #b39e5f; }
 
-.projects {
-  background-color: #101e26;
-  color: #fff;
+.projects > a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%); }
+  .projects > a i {
+    font-size: 2rem;
+    color: white;
+    transition: all 0.3s ease-in-out; }
+    .projects > a i:hover {
+      color: #b39e5f; }
+
+.projects .container h1 {
+  text-align: right;
+  margin-bottom: 2rem; }
+
+.projects .container .content ul {
+  list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  position: relative; }
-  .projects > a {
-    text-decoration: none;
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%); }
-    .projects > a i {
-      font-size: 2rem;
-      color: white;
+  flex-direction: column;
+  align-items: flex-end; }
+  .projects .container .content ul h5 {
+    margin: 0; }
+  .projects .container .content ul p {
+    width: 75%;
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 1rem; }
+  .projects .container .content ul li {
+    font-size: 1.5rem; }
+    .projects .container .content ul li a {
+      color: #b39e5f;
+      text-decoration: none;
       transition: all 0.3s ease-in-out; }
-      .projects > a i:hover {
-        color: #b39e5f; }
+      .projects .container .content ul li a:hover {
+        color: #CF307A; }
+    .projects .container .content ul li + li {
+      margin-top: 0.5rem; }
+
+@media (max-width: 991px) {
   .projects .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60px; }
-    .projects .container h1 {
-      text-align: right;
-      margin-bottom: 2rem; }
+    padding: 20px; }
     .projects .container .content {
-      background-color: #17393d;
-      background-image: linear-gradient(135deg, #101e26 0%, #101e26 25%, #17393d 25%, #17393d 100%);
-      padding: 36px 18px 36px 300px;
-      text-align: right;
-      position: relative; }
-      .projects .container .content ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end; }
-        .projects .container .content ul h5 {
-          margin: 0; }
-        .projects .container .content ul p {
-          width: 75%;
-          margin-top: 0;
-          font-weight: 100;
-          font-size: 1rem; }
-        .projects .container .content ul li {
-          font-size: 1.5rem; }
-          .projects .container .content ul li a {
-            color: #b39e5f;
-            text-decoration: none;
-            transition: all 0.3s ease-in-out; }
-            .projects .container .content ul li a:hover {
-              color: #CF307A; }
-          .projects .container .content ul li + li {
-            margin-top: 0.5rem; }
-  @media (max-width: 991px) {
-    .projects .container {
-      padding: 20px; }
-      .projects .container .content {
-        background-image: none;
-        padding: 2.5rem 1rem 2.5rem 125px;
-        text-align: right; } }
-  @media (max-width: 767px) {
-    .projects .container .content {
-      padding: 2rem 1rem; }
-      .projects .container .content ul {
-        padding-left: 0; }
-        .projects .container .content ul p {
-          width: 100%; }
-        .projects .container .content ul li {
-          font-size: 1.25rem; } }
+      background-image: none;
+      padding: 2.5rem 1rem 2.5rem 125px;
+      text-align: right; } }
+
+@media (max-width: 767px) {
+  .projects .container .content {
+    padding: 2rem 1rem; }
+    .projects .container .content ul {
+      padding-left: 0; }
+      .projects .container .content ul p {
+        width: 100%; }
+      .projects .container .content ul li {
+        font-size: 1.25rem; } }
