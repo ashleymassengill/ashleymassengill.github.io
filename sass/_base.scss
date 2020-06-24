@@ -117,5 +117,51 @@ body{
         }
       }
     }
+    @media (max-width: $screen-sm-max){
+      .container{
+        padding: 20px;
+        .content{
+          background-image: none !important;
+          padding: 2.5rem 1rem 2.5rem 125px;
+          text-align: right;
+        }
+      }
+      &:nth-child(1), &:nth-child(2){
+        .container{
+          .content{
+            background-color: $primary;
+          }
+        }
+      }
+      &:nth-child(3), &:nth-child(4){
+        .container{
+          .content{
+            background-color: $secondary-dark;
+          }
+        }
+      }
+      &:nth-child(5), &:nth-child(6){
+        .container{
+          .content{
+            background-color: $tertiary;
+          }
+        }
+      }
+    }
+    @media (max-width: $screen-xs-max){
+      .container{
+        .content{
+          padding: 2rem 1rem 2rem 75px;
+          h5{
+            span{
+              &:after{
+                content: "\A";
+                white-space: pre;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
