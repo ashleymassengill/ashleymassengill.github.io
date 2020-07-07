@@ -1,0 +1,11 @@
+header{
+  background-color: rgba(23,57,61,.5);
+  .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    color: $white;
+  }
+}

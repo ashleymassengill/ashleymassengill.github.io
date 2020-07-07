@@ -27,7 +27,7 @@ body{
         }
       }
     }
-    &:nth-child(1){
+    &.green.left{
       background-color: $primary-dark;
       background-image: url(../images/textures/green-left@2x.png);
       .container{
@@ -36,7 +36,11 @@ body{
         }
       }
     }
-    &:nth-child(2){
+    &.green.center{
+      background-color: $primary-dark;
+      background-image: url(../images/textures/green-left@2x.png);
+    }
+    &.green.right{
       background-color: $primary-dark;
       background-image: url(../images/textures/green-right@2x.png);
       .container{
@@ -45,7 +49,7 @@ body{
         }
       }
     }
-    &:nth-child(3){
+    &.pink.left{
       background-color: $secondary-dark;
       background-image: url(../images/textures/pink-left@2x.png);
       .container{
@@ -63,7 +67,11 @@ body{
         }
       }
     }
-    &:nth-child(4){
+    &.pink.center{
+      background-color: $secondary-dark;
+      background-image: url(../images/textures/pink-left@2x.png);
+    }
+    &.pink.right{
       background-color: $secondary-dark;
       background-image: url(../images/textures/pink-right@2x.png);
       .container{
@@ -81,7 +89,7 @@ body{
         }
       }
     }
-    &:nth-child(5){
+    &.gold.left{
       background-color: $tertiary;
       background-image: url(../images/textures/gold-left@2x.png);
       .container{
@@ -99,7 +107,11 @@ body{
         }
       }
     }
-    &:nth-child(6){
+    &.gold.center{
+      background-color: $tertiary;
+      background-image: url(../images/textures/gold-left@2x.png);
+    }
+    &.gold.right{
       background-color: $tertiary;
       background-image: url(../images/textures/gold-right@2x.png);
       .container{
@@ -117,6 +129,28 @@ body{
         }
       }
     }
+    &.grey.left{
+      background-color: $shade-30;
+      background-image: url(../images/textures/grey-left@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
+        }
+      }
+    }
+    &.grey.center{
+      background-color: $shade-30;
+      background-image: url(../images/textures/grey-left@2x.png);
+    }
+    &.grey.right{
+      background-color: $shade-30;
+      background-image: url(../images/textures/grey-right@2x.png);
+      .container{
+        .content{
+          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
+        }
+      }
+    }
     @media (max-width: $screen-sm-max){
       .container{
         padding: 20px;
@@ -124,27 +158,6 @@ body{
           background-image: none !important;
           padding: 2.5rem 1rem 2.5rem 125px;
           text-align: right;
-        }
-      }
-      &:nth-child(1), &:nth-child(2){
-        .container{
-          .content{
-            background-color: $primary;
-          }
-        }
-      }
-      &:nth-child(3), &:nth-child(4){
-        .container{
-          .content{
-            background-color: $secondary-dark;
-          }
-        }
-      }
-      &:nth-child(5), &:nth-child(6){
-        .container{
-          .content{
-            background-color: $tertiary;
-          }
         }
       }
     }

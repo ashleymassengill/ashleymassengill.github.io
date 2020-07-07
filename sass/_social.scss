@@ -1,0 +1,21 @@
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-top: 2rem;
+  li{
+    padding: 0 2rem;
+    a{
+      color: $secondary-light;
+      i{
+        font-size: 3rem;
+        @include transition;
+        &:hover{
+          color: $primary-light;
+        }
+      }
+    }
+  }
+}

@@ -25,23 +25,3 @@
     }
   }
 }
-
-.social{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  margin-top: 2rem;
-  li{
-    padding: 0 1rem;
-    a{
-      i{
-        @include transition;
-        &:hover{
-          color: $tertiary;
-        }
-      }
-    }
-  }
-}
