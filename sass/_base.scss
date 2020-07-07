@@ -5,26 +5,59 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     color: $white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
     .container{
       max-width: 1200px;
       width: 100%;
       margin: 0 auto;
-      padding: 60px;
+      padding: 0 60px;
+      .title{
+        h2{
+          margin-top: 0;
+        }
+      }
       .content{
-        background-color: transparent;
-        text-align: right;
-        position: relative;
-        padding: 36px 18px 36px 300px;
         a{
           color: white;
         }
+      }
+    }
+    &.left{
+      .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        .title{
+          flex: 1 0 50%;
+        }
+        .content{
+          padding: 60px 20px;
+          flex: 1 0 50%;
+        }
+      }
+    }
+    &.right{
+      .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        position: relative;
+        .title{
+          flex: 1 0 50%;
+          h2{
+            padding-left: 20px;
+          }
+        }
+        .content{
+          padding: 60px 20px;
+          flex: 1 0 50%;
+        }
+      }
+    }
+    &.center{
+      .container{
+        text-align: center;
+        padding: 60px;
       }
     }
     &.green.left{
@@ -32,7 +65,7 @@ body{
       background-image: url(../images/textures/green-left@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+          background-image: linear-gradient(90deg, rgba(23,57,61,1) 0%, rgba(23,57,61,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
         }
       }
     }
@@ -45,7 +78,7 @@ body{
       background-image: url(../images/textures/green-right@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
+          background-image: linear-gradient(90deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 15%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
         }
       }
     }
@@ -54,7 +87,7 @@ body{
       background-image: url(../images/textures/pink-left@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
+          background-image: linear-gradient(90deg, rgba(194,45,114,1) 0%, rgba(194,45,114,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
           ul{
             li{
               a{
@@ -76,7 +109,7 @@ body{
       background-image: url(../images/textures/pink-right@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
+          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
           ul{
             li{
               a{
@@ -94,7 +127,7 @@ body{
       background-image: url(../images/textures/gold-left@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
+          background-image: linear-gradient(90deg, rgba(179, 158, 95,1) 0%, rgba(179, 158, 95,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
           ul{
             li{
               a{
@@ -116,7 +149,7 @@ body{
       background-image: url(../images/textures/gold-right@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
+          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
           ul{
             li{
               a{
@@ -134,7 +167,7 @@ body{
       background-image: url(../images/textures/grey-left@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
+          background-image: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
         }
       }
     }
@@ -147,7 +180,7 @@ body{
       background-image: url(../images/textures/grey-right@2x.png);
       .container{
         .content{
-          background-image: linear-gradient(150deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 35%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
+          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
         }
       }
     }
@@ -177,4 +210,8 @@ body{
       }
     }
   }
+}
+
+.intro{
+
 }

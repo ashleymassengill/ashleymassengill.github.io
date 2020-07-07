@@ -1,11 +1,68 @@
 header{
-  background-color: rgba(23,57,61,.5);
+  background-color: $primary;
+  position: relative;
+  height: 0;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
   .container{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 60px;
+    padding: 20px;
     display: flex;
     color: $white;
+    .content{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .logo{
+        display: flex;
+        flex-direction: row;
+        img{
+          height: 50px;
+          width: auto;
+          margin-right: 5px;
+        }
+        h5{
+          font-weight: 100;
+          margin-bottom: 0;
+        }
+      }
+      .menu{
+        ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 0;
+          margin: 0;
+          li{
+            list-style: none;
+            +li{
+              margin-left: 20px;
+            }
+            a{
+              color: $white;
+              text-decoration: none;
+              font-size: 1.5rem;
+              font-weight: 100;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.sticky{
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    z-index: 10;
   }
 }
