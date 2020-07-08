@@ -1,4 +1,8 @@
 #intro{
+  @include transition;
+  *{
+    transition: all 0.2s ease-in-out;
+  }
   .container{
     .title{
       h1{
@@ -12,6 +16,8 @@
       background-image: none;
       ul{
         text-align: right;
+        padding: 0;
+        margin: 0;
         li{
           list-style: none;
           font-size: 1.25rem;
@@ -30,6 +36,43 @@
           }
         }
       }
+    }
+  }
+  &.sticky{
+    background-color: rgba(37,46,51, .99);
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+    .container{
+      .title{
+        h1{
+          font-size: 2rem;
+        }
+        h5{
+          opacity: 0;
+          font-size: 0;
+        }
+      }
+      .content{
+        padding: .5rem 0;
+        ul{
+          li{
+            font-size: 1rem;
+            a{
+              i{
+                font-size: 12px;
+                margin-right: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+    + section{
+      padding-top: 200px;
     }
   }
 }

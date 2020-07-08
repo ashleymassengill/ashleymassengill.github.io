@@ -1,3 +1,33 @@
 #contact{
   background-color: rgba(37,46,51, .85);
+  .container{
+    .title{
+
+    }
+    .content{
+      ul{
+        padding: 0;
+        li{
+          list-style: none;
+          font-size: 1.5rem;
+          a{
+            text-decoration: none;
+            i{
+              margin-right: 1rem;
+              font-size: 1.75rem;
+            }
+            &:hover{
+              color: $primary-lightest;
+              i{
+                color: $tertiary;
+              }
+            }
+          }
+          + li{
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+  }
 }
