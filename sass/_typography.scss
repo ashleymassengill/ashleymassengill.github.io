@@ -69,13 +69,23 @@ a{
 }
 
 ul{
+  font-family: $font-sans;
   li{
     font-size: 1rem;
   }
 }
 
-.fa{
+i{
   font-size: 20px;
+  background: linear-gradient(135deg, rgba(77,189,201,0) 0%, rgba(242,56,143,0) 100%);
+  background-clip: text;
+  color: white;
+  transition: color 0.4s ease-in-out;
+  &:hover{
+    background: linear-gradient(135deg, rgba(77,189,201,1) 0%, rgba(242,56,143,1) 100%);
+    background-clip: text;
+    color: transparent;
+  }
 }
 
 .glitch{
@@ -89,6 +99,48 @@ ul{
   }
   &:after{
     @include glitch-2;
+  }
+}
+
+.glitch-green{
+  position: relative;
+  letter-spacing: 1.5px;
+  &:before, &:after{
+    @include glitch;
+  }
+  &:before{
+    @include glitch-3;
+  }
+  &:after{
+    @include glitch-4;
+  }
+}
+
+.glitch-gold{
+  position: relative;
+  letter-spacing: 1.5px;
+  &:before, &:after{
+    @include glitch;
+  }
+  &:before{
+    @include glitch-5;
+  }
+  &:after{
+    @include glitch-6;
+  }
+}
+
+.glitch-mixed{
+  position: relative;
+  letter-spacing: 1.5px;
+  &:before, &:after{
+    @include glitch;
+  }
+  &:before{
+    @include glitch-1;
+  }
+  &:after{
+    @include glitch-4;
   }
 }
 

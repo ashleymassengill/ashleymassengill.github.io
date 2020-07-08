@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap");
 @keyframes glitch-1 {
   0% {
-    clip: rect(80px, 9999px, 49px, 0); }
+    clip: rect(92px, 9999px, 51px, 0); }
   5% {
-    clip: rect(84px, 9999px, 12px, 0); }
+    clip: rect(74px, 9999px, 85px, 0); }
   10% {
-    clip: rect(58px, 9999px, 68px, 0); }
+    clip: rect(3px, 9999px, 89px, 0); }
   15% {
-    clip: rect(35px, 9999px, 62px, 0); }
+    clip: rect(52px, 9999px, 34px, 0); }
   20% {
-    clip: rect(53px, 9999px, 83px, 0); }
+    clip: rect(41px, 9999px, 34px, 0); }
   25% {
-    clip: rect(36px, 9999px, 34px, 0); }
+    clip: rect(58px, 9999px, 38px, 0); }
   30% {
-    clip: rect(72px, 9999px, 49px, 0); }
+    clip: rect(73px, 9999px, 75px, 0); }
   35% {
-    clip: rect(8px, 9999px, 49px, 0); }
+    clip: rect(3px, 9999px, 78px, 0); }
   40% {
-    clip: rect(76px, 9999px, 27px, 0); }
+    clip: rect(95px, 9999px, 42px, 0); }
   45% {
-    clip: rect(26px, 9999px, 57px, 0); }
+    clip: rect(43px, 9999px, 8px, 0); }
   50% {
-    clip: rect(58px, 9999px, 54px, 0); }
+    clip: rect(74px, 9999px, 75px, 0); }
   55% {
-    clip: rect(18px, 9999px, 79px, 0); }
+    clip: rect(37px, 9999px, 82px, 0); }
   60% {
-    clip: rect(54px, 9999px, 47px, 0); }
+    clip: rect(55px, 9999px, 100px, 0); }
   65% {
-    clip: rect(44px, 9999px, 82px, 0); }
+    clip: rect(25px, 9999px, 5px, 0); }
   70% {
-    clip: rect(21px, 9999px, 52px, 0); }
+    clip: rect(14px, 9999px, 5px, 0); }
   75% {
-    clip: rect(37px, 9999px, 77px, 0); }
+    clip: rect(13px, 9999px, 13px, 0); }
   80% {
-    clip: rect(9px, 9999px, 18px, 0); }
+    clip: rect(61px, 9999px, 6px, 0); }
   85% {
-    clip: rect(83px, 9999px, 60px, 0); }
+    clip: rect(58px, 9999px, 73px, 0); }
   90% {
-    clip: rect(40px, 9999px, 93px, 0); }
+    clip: rect(97px, 9999px, 88px, 0); }
   95% {
-    clip: rect(10px, 9999px, 82px, 0); }
+    clip: rect(21px, 9999px, 43px, 0); }
   100% {
-    clip: rect(69px, 9999px, 72px, 0); } }
+    clip: rect(26px, 9999px, 12px, 0); } }
 
 @keyframes glitch-2 {
   0% {
-    clip: rect(67px, 9999px, 30px, 0); }
+    clip: rect(28px, 9999px, 25px, 0); }
   5% {
-    clip: rect(77px, 9999px, 44px, 0); }
+    clip: rect(34px, 9999px, 95px, 0); }
   10% {
-    clip: rect(96px, 9999px, 34px, 0); }
+    clip: rect(93px, 9999px, 67px, 0); }
   15% {
-    clip: rect(90px, 9999px, 74px, 0); }
+    clip: rect(1px, 9999px, 53px, 0); }
   20% {
-    clip: rect(52px, 9999px, 54px, 0); }
+    clip: rect(91px, 9999px, 61px, 0); }
   25% {
-    clip: rect(89px, 9999px, 75px, 0); }
+    clip: rect(49px, 9999px, 40px, 0); }
   30% {
-    clip: rect(66px, 9999px, 49px, 0); }
+    clip: rect(99px, 9999px, 20px, 0); }
   35% {
-    clip: rect(39px, 9999px, 37px, 0); }
+    clip: rect(34px, 9999px, 45px, 0); }
   40% {
-    clip: rect(66px, 9999px, 13px, 0); }
+    clip: rect(47px, 9999px, 93px, 0); }
   45% {
-    clip: rect(53px, 9999px, 61px, 0); }
+    clip: rect(89px, 9999px, 17px, 0); }
   50% {
-    clip: rect(50px, 9999px, 38px, 0); }
+    clip: rect(95px, 9999px, 37px, 0); }
   55% {
-    clip: rect(10px, 9999px, 22px, 0); }
+    clip: rect(65px, 9999px, 95px, 0); }
   60% {
-    clip: rect(54px, 9999px, 1px, 0); }
+    clip: rect(1px, 9999px, 100px, 0); }
   65% {
-    clip: rect(8px, 9999px, 69px, 0); }
+    clip: rect(41px, 9999px, 99px, 0); }
   70% {
-    clip: rect(78px, 9999px, 44px, 0); }
+    clip: rect(1px, 9999px, 28px, 0); }
   75% {
-    clip: rect(100px, 9999px, 17px, 0); }
+    clip: rect(30px, 9999px, 56px, 0); }
   80% {
-    clip: rect(99px, 9999px, 42px, 0); }
+    clip: rect(50px, 9999px, 71px, 0); }
   85% {
-    clip: rect(87px, 9999px, 33px, 0); }
+    clip: rect(1px, 9999px, 95px, 0); }
   90% {
-    clip: rect(94px, 9999px, 64px, 0); }
+    clip: rect(45px, 9999px, 5px, 0); }
   95% {
-    clip: rect(95px, 9999px, 85px, 0); }
+    clip: rect(93px, 9999px, 100px, 0); }
   100% {
-    clip: rect(73px, 9999px, 8px, 0); } }
+    clip: rect(14px, 9999px, 27px, 0); } }
 
 h1 {
   font-family: "EB Garamond", serif;
@@ -155,11 +155,21 @@ p {
 a {
   transition: all 0.4s ease-in-out; }
 
-ul li {
-  font-size: 1rem; }
+ul {
+  font-family: "Noto Sans JP", sans-serif; }
+  ul li {
+    font-size: 1rem; }
 
-.fa {
-  font-size: 20px; }
+i {
+  font-size: 20px;
+  background: linear-gradient(135deg, rgba(77, 189, 201, 0) 0%, rgba(242, 56, 143, 0) 100%);
+  background-clip: text;
+  color: white;
+  transition: color 0.4s ease-in-out; }
+  i:hover {
+    background: linear-gradient(135deg, #4dbdc9 0%, #f2388f 100%);
+    background-clip: text;
+    color: transparent; }
 
 .glitch {
   position: relative;
@@ -179,6 +189,66 @@ ul li {
   .glitch:after {
     left: -3px;
     text-shadow: -3px 0 #A82763;
+    animation: glitch-2 3s infinite; }
+
+.glitch-green {
+  position: relative;
+  letter-spacing: 1.5px; }
+  .glitch-green:before, .glitch-green:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, 900px, 0, 0);
+    overflow: hidden; }
+  .glitch-green:before {
+    left: 3px;
+    text-shadow: 3px 0 #34818A;
+    animation: glitch-1 3s infinite; }
+  .glitch-green:after {
+    left: -3px;
+    text-shadow: -3px 0 #1C454A;
+    animation: glitch-2 3s infinite; }
+
+.glitch-gold {
+  position: relative;
+  letter-spacing: 1.5px; }
+  .glitch-gold:before, .glitch-gold:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, 900px, 0, 0);
+    overflow: hidden; }
+  .glitch-gold:before {
+    left: 3px;
+    text-shadow: 3px 0 #BFA965;
+    animation: glitch-1 3s infinite; }
+  .glitch-gold:after {
+    left: -3px;
+    text-shadow: -3px 0 #998751;
+    animation: glitch-2 3s infinite; }
+
+.glitch-mixed {
+  position: relative;
+  letter-spacing: 1.5px; }
+  .glitch-mixed:before, .glitch-mixed:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, 900px, 0, 0);
+    overflow: hidden; }
+  .glitch-mixed:before {
+    left: 3px;
+    text-shadow: 3px 0 #CF307A;
+    animation: glitch-1 3s infinite; }
+  .glitch-mixed:after {
+    left: -3px;
+    text-shadow: -3px 0 #1C454A;
     animation: glitch-2 3s infinite; }
 
 .glitch-hover {
@@ -203,17 +273,20 @@ ul li {
     animation: glitch-2 2s infinite; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
   body section {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-color: rgba(37, 46, 51, 0.6);
     color: #fff; }
     body section .container {
       max-width: 1200px;
       width: 100%;
       margin: 0 auto;
-      padding: 0 60px; }
+      padding: 0 20px; }
       body section .container .title h2 {
         margin-top: 0; }
       body section .container .content a {
@@ -226,7 +299,7 @@ body {
       body section.left .container .title {
         flex: 1 0 50%; }
       body section.left .container .content {
-        padding: 60px 20px;
+        padding: 40px 20px;
         flex: 1 0 50%; }
     body section.right .container {
       display: flex;
@@ -234,75 +307,16 @@ body {
       align-items: center;
       position: relative; }
       body section.right .container .title {
-        flex: 1 0 50%; }
+        flex: 1 0 50%;
+        text-align: right; }
         body section.right .container .title h2 {
           padding-left: 20px; }
       body section.right .container .content {
-        padding: 60px 20px;
+        padding: 40px 20px;
         flex: 1 0 50%; }
     body section.center .container {
       text-align: center;
-      padding: 60px; }
-    body section.green.left {
-      background-color: #133033;
-      background-image: url(../images/textures/green-left@2x.png); }
-      body section.green.left .container .content {
-        background-image: linear-gradient(90deg, #17393d 0%, #17393d 65%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0) 100%); }
-    body section.green.center {
-      background-color: #133033;
-      background-image: url(../images/textures/green-left@2x.png); }
-    body section.green.right {
-      background-color: #133033;
-      background-image: url(../images/textures/green-right@2x.png); }
-      body section.green.right .container .content {
-        background-image: linear-gradient(90deg, rgba(16, 30, 38, 0) 0%, rgba(16, 30, 38, 0) 15%, #17393d 45%, #17393d 100%); }
-    body section.pink.left {
-      background-color: #A82763;
-      background-image: url(../images/textures/pink-left@2x.png); }
-      body section.pink.left .container .content {
-        background-image: linear-gradient(90deg, #c22d72 0%, #c22d72 65%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0) 100%); }
-        body section.pink.left .container .content ul li a:hover {
-          color: #17393d; }
-    body section.pink.center {
-      background-color: #A82763;
-      background-image: url(../images/textures/pink-left@2x.png); }
-    body section.pink.right {
-      background-color: #A82763;
-      background-image: url(../images/textures/pink-right@2x.png); }
-      body section.pink.right .container .content {
-        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, #c22d72 45%, #c22d72 100%); }
-        body section.pink.right .container .content ul li a:hover {
-          color: #17393d; }
-    body section.gold.left {
-      background-color: #b39e5f;
-      background-image: url(../images/textures/gold-left@2x.png); }
-      body section.gold.left .container .content {
-        background-image: linear-gradient(90deg, #b39e5f 0%, #b39e5f 65%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0) 100%); }
-        body section.gold.left .container .content ul li a:hover {
-          color: #A82763; }
-    body section.gold.center {
-      background-color: #b39e5f;
-      background-image: url(../images/textures/gold-left@2x.png); }
-    body section.gold.right {
-      background-color: #b39e5f;
-      background-image: url(../images/textures/gold-right@2x.png); }
-      body section.gold.right .container .content {
-        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, #b39e5f 45%, #b39e5f 100%); }
-        body section.gold.right .container .content ul li a:hover {
-          color: #A82763; }
-    body section.grey.left {
-      background-color: #BFBFBF;
-      background-image: url(../images/textures/grey-left@2x.png); }
-      body section.grey.left .container .content {
-        background-image: linear-gradient(90deg, gray 0%, gray 65%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0) 100%); }
-    body section.grey.center {
-      background-color: #BFBFBF;
-      background-image: url(../images/textures/grey-left@2x.png); }
-    body section.grey.right {
-      background-color: #BFBFBF;
-      background-image: url(../images/textures/grey-right@2x.png); }
-      body section.grey.right .container .content {
-        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15%, gray 45%, gray 100%); }
+      padding: 40px 20px; }
     @media (max-width: 991px) {
       body section .container {
         padding: 20px; }
@@ -318,13 +332,13 @@ body {
           white-space: pre; } }
 
 header {
-  background-color: #17393d;
+  background-color: #000;
   position: relative;
   height: 0;
   top: auto;
   bottom: 0;
   opacity: 0;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.4s ease-in-out; }
   header .container {
     max-width: 1200px;
     width: 100%;
@@ -337,7 +351,7 @@ header {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center; }
+      align-items: flex-end; }
       header .container .content .logo {
         display: flex;
         flex-direction: row; }
@@ -347,7 +361,8 @@ header {
           margin-right: 5px; }
         header .container .content .logo h5 {
           font-weight: 100;
-          margin-bottom: 0; }
+          margin-bottom: 0;
+          color: #fff; }
       header .container .content .menu ul {
         display: flex;
         flex-direction: row;
@@ -373,6 +388,9 @@ header {
     opacity: 1;
     z-index: 10; }
 
+.sticky + section {
+  padding-top: 92px; }
+
 @media (max-width: 991px) {
   .maintenance .container {
     padding: 20px; }
@@ -388,76 +406,70 @@ header {
       content: "\A";
       white-space: pre; } }
 
-.projects > a {
-  text-decoration: none;
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%); }
-  .projects > a i {
-    font-size: 2rem;
-    color: white;
-    transition: all 0.4s ease-in-out; }
-    .projects > a i:hover {
-      color: #b39e5f; }
+#intro .container .title h1 {
+  margin-bottom: 0; }
 
-.projects .container h1 {
-  text-align: right;
-  margin-bottom: 2rem; }
+#intro .container .title h5 {
+  margin-top: 0; }
 
-.projects .container .content ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
-  .projects .container .content ul h5 {
-    margin: 0; }
-  .projects .container .content ul p {
-    width: 75%;
-    margin-top: 0;
-    font-weight: 100;
-    font-size: 1rem; }
-  .projects .container .content ul li {
-    font-size: 1.5rem; }
-    .projects .container .content ul li a {
-      color: #b39e5f;
-      text-decoration: none;
-      transition: all 0.4s ease-in-out; }
-      .projects .container .content ul li a:hover {
-        color: #CF307A; }
-    .projects .container .content ul li + li {
-      margin-top: 0.5rem; }
+#intro .container .content {
+  background-image: none; }
+  #intro .container .content ul {
+    text-align: right; }
+    #intro .container .content ul li {
+      list-style: none;
+      font-size: 1.25rem; }
+      #intro .container .content ul li a {
+        text-decoration: none; }
+        #intro .container .content ul li a:hover {
+          color: #b39e5f; }
+          #intro .container .content ul li a:hover.glitch-hover {
+            color: #fff; }
+        #intro .container .content ul li a i {
+          font-size: 14px;
+          margin-right: 4px; }
 
-@media (max-width: 991px) {
-  .projects .container {
-    padding: 20px; }
-    .projects .container .content {
-      background-image: none;
-      padding: 2.5rem 1rem 2.5rem 125px;
-      text-align: right; } }
+#social {
+  background-image: none;
+  background-color: rgba(37, 46, 51, 0.85); }
+  #social .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #social .social li {
+      padding: 0 2rem; }
+      #social .social li a i {
+        font-size: 2.5rem;
+        transition: all 0.4s ease-in-out; }
 
-@media (max-width: 767px) {
-  .projects .container .content {
-    padding: 2rem 1rem; }
-    .projects .container .content ul {
-      padding-left: 0; }
-      .projects .container .content ul p {
-        width: 100%; }
-      .projects .container .content ul li {
-        font-size: 1.25rem; } }
-
-.social {
+#skills .container .content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin-top: 2rem;
-  padding: 0; }
-  .social li {
-    padding: 0 2rem; }
-    .social li a i {
-      font-size: 3rem;
-      transition: all 0.4s ease-in-out; }
-      .social li a i:hover {
-        color: #34818A; }
+  justify-content: space-between;
+  align-items: flex-start; }
+  #skills .container .content > div {
+    flex: 1 0 30%;
+    padding: 0 20px; }
+    #skills .container .content > div ul {
+      padding-left: 0; }
+      #skills .container .content > div ul li {
+        list-style: none; }
+    #skills .container .content > div.tools {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      #skills .container .content > div.tools h5 {
+        width: 100%;
+        margin-bottom: 0; }
+      #skills .container .content > div.tools ul {
+        flex: 1 0 50%; }
+
+#work {
+  background-color: rgba(37, 46, 51, 0.7); }
+
+#contact {
+  background-color: rgba(37, 46, 51, 0.85); }

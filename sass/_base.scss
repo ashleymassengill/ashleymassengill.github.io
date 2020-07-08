@@ -1,15 +1,18 @@
 body{
   margin: 0;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   section{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-color: rgba(37,46,51,.6);
     color: $white;
     .container{
       max-width: 1200px;
       width: 100%;
       margin: 0 auto;
-      padding: 0 60px;
+      padding: 0 20px;
       .title{
         h2{
           margin-top: 0;
@@ -31,7 +34,7 @@ body{
           flex: 1 0 50%;
         }
         .content{
-          padding: 60px 20px;
+          padding: 40px 20px;
           flex: 1 0 50%;
         }
       }
@@ -44,12 +47,13 @@ body{
         position: relative;
         .title{
           flex: 1 0 50%;
+          text-align: right;
           h2{
             padding-left: 20px;
           }
         }
         .content{
-          padding: 60px 20px;
+          padding: 40px 20px;
           flex: 1 0 50%;
         }
       }
@@ -57,131 +61,7 @@ body{
     &.center{
       .container{
         text-align: center;
-        padding: 60px;
-      }
-    }
-    &.green.left{
-      background-color: $primary-dark;
-      background-image: url(../images/textures/green-left@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(23,57,61,1) 0%, rgba(23,57,61,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
-        }
-      }
-    }
-    &.green.center{
-      background-color: $primary-dark;
-      background-image: url(../images/textures/green-left@2x.png);
-    }
-    &.green.right{
-      background-color: $primary-dark;
-      background-image: url(../images/textures/green-right@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(16,30,38,0) 0%, rgba(16,30,38,0) 15%, rgba(23,57,61,1) 45%, rgba(23,57,61,1) 100%);
-        }
-      }
-    }
-    &.pink.left{
-      background-color: $secondary-dark;
-      background-image: url(../images/textures/pink-left@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(194,45,114,1) 0%, rgba(194,45,114,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
-          ul{
-            li{
-              a{
-                &:hover{
-                  color: $primary;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    &.pink.center{
-      background-color: $secondary-dark;
-      background-image: url(../images/textures/pink-left@2x.png);
-    }
-    &.pink.right{
-      background-color: $secondary-dark;
-      background-image: url(../images/textures/pink-right@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(194,45,114,1) 45%, rgba(194,45,114,1) 100%);
-          ul{
-            li{
-              a{
-                &:hover{
-                  color: $primary;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    &.gold.left{
-      background-color: $tertiary;
-      background-image: url(../images/textures/gold-left@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(179, 158, 95,1) 0%, rgba(179, 158, 95,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
-          ul{
-            li{
-              a{
-                &:hover{
-                  color: $secondary-dark;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    &.gold.center{
-      background-color: $tertiary;
-      background-image: url(../images/textures/gold-left@2x.png);
-    }
-    &.gold.right{
-      background-color: $tertiary;
-      background-image: url(../images/textures/gold-right@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(179, 158, 95,1) 45%, rgba(179, 158, 95,1) 100%);
-          ul{
-            li{
-              a{
-                &:hover{
-                  color: $secondary-dark;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    &.grey.left{
-      background-color: $shade-30;
-      background-image: url(../images/textures/grey-left@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 65%, rgba(255,255,255,0) 85%, rgba(255,255,255,0) 100%);
-        }
-      }
-    }
-    &.grey.center{
-      background-color: $shade-30;
-      background-image: url(../images/textures/grey-left@2x.png);
-    }
-    &.grey.right{
-      background-color: $shade-30;
-      background-image: url(../images/textures/grey-right@2x.png);
-      .container{
-        .content{
-          background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(128,128,128,1) 45%, rgba(128,128,128,1) 100%);
-        }
+        padding: 40px 20px;
       }
     }
     @media (max-width: $screen-sm-max){
@@ -210,8 +90,4 @@ body{
       }
     }
   }
-}
-
-.intro{
-
 }

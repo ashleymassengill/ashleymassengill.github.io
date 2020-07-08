@@ -1,11 +1,11 @@
 header{
-  background-color: $primary;
+  background-color: $black;
   position: relative;
   height: 0;
   top: auto;
   bottom: 0;
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
   .container{
     max-width: 1200px;
     width: 100%;
@@ -18,7 +18,7 @@ header{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-end;
       .logo{
         display: flex;
         flex-direction: row;
@@ -30,6 +30,7 @@ header{
         h5{
           font-weight: 100;
           margin-bottom: 0;
+          color: $white;
         }
       }
       .menu{
@@ -65,4 +66,8 @@ header{
     opacity: 1;
     z-index: 10;
   }
+}
+
+.sticky + section{
+  padding-top: 92px;
 }

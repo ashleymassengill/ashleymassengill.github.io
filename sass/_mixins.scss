@@ -49,6 +49,30 @@
   animation: glitch-2 3s infinite;
 }
 
+@mixin glitch-3{
+  left: 3px;
+  text-shadow: 3px 0 $primary-light;
+  animation: glitch-1 3s infinite;
+}
+
+@mixin glitch-4{
+  left: -3px;
+  text-shadow: -3px 0 $primary-medium;
+  animation: glitch-2 3s infinite;
+}
+
+@mixin glitch-5{
+  left: 3px;
+  text-shadow: 3px 0 $tertiary-light;
+  animation: glitch-1 3s infinite;
+}
+
+@mixin glitch-6{
+  left: -3px;
+  text-shadow: -3px 0 $tertiary-dark;
+  animation: glitch-2 3s infinite;
+}
+
 @mixin glitch-1-hover{
   left: 3px;
   text-shadow: 3px 0 $secondary-light;
