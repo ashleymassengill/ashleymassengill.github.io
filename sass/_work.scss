@@ -26,6 +26,17 @@
             + li{
               padding-top: 0.25rem;
             }
+            &:before{
+              display: inline-block;
+              content: '\f45c';
+              font-family: 'Font Awesome 5 Free';
+              font-weight: 900;
+              font-size: 6px;
+              transform: rotate(45deg);
+              color: $secondary-light;
+              margin-right: 4px;
+              vertical-align: middle;
+            }
           }
         }
       }

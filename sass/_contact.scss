@@ -17,9 +17,9 @@
               font-size: 1.75rem;
             }
             &:hover{
-              color: $primary-lightest;
+              color: $shade-10;
               i{
-                color: $tertiary;
+                color: $primary-lightest;
               }
             }
           }
