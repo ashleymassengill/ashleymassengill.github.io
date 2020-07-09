@@ -1,10 +1,9 @@
 #intro{
-  @include transition;
-  *{
-    transition: all 0.2s ease-in-out;
-  }
+  height: 50vh;
   .container{
+    padding: 60px 20px 0;
     .title{
+      flex: 1 0 75%;
       h1{
         margin-bottom: 0;
       }
@@ -13,66 +12,8 @@
       }
     }
     .content{
+      flex: 1 0 25%;
       background-image: none;
-      ul{
-        text-align: right;
-        padding: 0;
-        margin: 0;
-        li{
-          list-style: none;
-          font-size: 1.25rem;
-          a{
-            text-decoration: none;
-            &:hover{
-              color: $tertiary;
-              &.glitch-hover{
-                color: $white;
-              }
-            }
-            i{
-              font-size: 14px;
-              margin-right: 4px;
-            }
-          }
-        }
-      }
-    }
-  }
-  &.sticky{
-    background-color: rgba(37,46,51, .99);
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    height: auto;
-    width: 100%;
-    z-index: 10;
-    .container{
-      .title{
-        h1{
-          font-size: 2rem;
-        }
-        h5{
-          opacity: 0;
-          font-size: 0;
-        }
-      }
-      .content{
-        padding: .5rem 0;
-        ul{
-          li{
-            font-size: 1rem;
-            a{
-              i{
-                font-size: 12px;
-                margin-right: 3px;
-              }
-            }
-          }
-        }
-      }
-    }
-    + section{
-      padding-top: 200px;
     }
   }
 }

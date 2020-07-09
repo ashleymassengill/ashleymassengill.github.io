@@ -12,7 +12,7 @@ $(document).ready(function(event){
 //header sticky on scroll
 window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("intro");
+var header = document.getElementById("header");
 
 var sticky = header.offsetTop;
 
@@ -23,14 +23,3 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
-
-//  Allows a dom element to be scrolled into position typical usage - triggered by a click event @param obj
-
-const scrollTo = (obj, offsetHeader) => {
-    let navbar = $('#intro');
-    let offset = (offsetHeader) ? navbar.outerHeight() : 0;
-    $('html, body').animate({
-        scrollTop: $(obj).offset().top - offset
-    }, 500);
-};

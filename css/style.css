@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap");
 @keyframes glitch-1 {
   0% {
-    clip: rect(46px, 9999px, 93px, 0); }
+    clip: rect(49px, 9999px, 37px, 0); }
   5% {
-    clip: rect(46px, 9999px, 1px, 0); }
+    clip: rect(31px, 9999px, 69px, 0); }
   10% {
-    clip: rect(60px, 9999px, 38px, 0); }
+    clip: rect(92px, 9999px, 53px, 0); }
   15% {
-    clip: rect(52px, 9999px, 23px, 0); }
+    clip: rect(10px, 9999px, 69px, 0); }
   20% {
-    clip: rect(48px, 9999px, 55px, 0); }
+    clip: rect(31px, 9999px, 55px, 0); }
   25% {
-    clip: rect(73px, 9999px, 19px, 0); }
+    clip: rect(2px, 9999px, 12px, 0); }
   30% {
-    clip: rect(27px, 9999px, 6px, 0); }
+    clip: rect(54px, 9999px, 58px, 0); }
   35% {
-    clip: rect(27px, 9999px, 99px, 0); }
+    clip: rect(45px, 9999px, 66px, 0); }
   40% {
-    clip: rect(27px, 9999px, 72px, 0); }
+    clip: rect(25px, 9999px, 67px, 0); }
   45% {
-    clip: rect(28px, 9999px, 50px, 0); }
+    clip: rect(63px, 9999px, 75px, 0); }
   50% {
-    clip: rect(76px, 9999px, 12px, 0); }
+    clip: rect(31px, 9999px, 41px, 0); }
   55% {
-    clip: rect(41px, 9999px, 40px, 0); }
+    clip: rect(45px, 9999px, 18px, 0); }
   60% {
-    clip: rect(74px, 9999px, 56px, 0); }
+    clip: rect(62px, 9999px, 90px, 0); }
   65% {
-    clip: rect(75px, 9999px, 62px, 0); }
+    clip: rect(24px, 9999px, 47px, 0); }
   70% {
-    clip: rect(30px, 9999px, 42px, 0); }
+    clip: rect(30px, 9999px, 56px, 0); }
   75% {
-    clip: rect(69px, 9999px, 92px, 0); }
+    clip: rect(47px, 9999px, 73px, 0); }
   80% {
-    clip: rect(56px, 9999px, 67px, 0); }
+    clip: rect(1px, 9999px, 69px, 0); }
   85% {
-    clip: rect(59px, 9999px, 78px, 0); }
+    clip: rect(4px, 9999px, 70px, 0); }
   90% {
-    clip: rect(33px, 9999px, 93px, 0); }
+    clip: rect(99px, 9999px, 35px, 0); }
   95% {
-    clip: rect(60px, 9999px, 11px, 0); }
+    clip: rect(10px, 9999px, 60px, 0); }
   100% {
-    clip: rect(89px, 9999px, 53px, 0); } }
+    clip: rect(72px, 9999px, 52px, 0); } }
 
 @keyframes glitch-2 {
   0% {
-    clip: rect(37px, 9999px, 68px, 0); }
+    clip: rect(92px, 9999px, 3px, 0); }
   5% {
-    clip: rect(68px, 9999px, 82px, 0); }
+    clip: rect(22px, 9999px, 68px, 0); }
   10% {
-    clip: rect(3px, 9999px, 22px, 0); }
+    clip: rect(54px, 9999px, 18px, 0); }
   15% {
-    clip: rect(34px, 9999px, 3px, 0); }
+    clip: rect(81px, 9999px, 46px, 0); }
   20% {
-    clip: rect(25px, 9999px, 78px, 0); }
+    clip: rect(48px, 9999px, 20px, 0); }
   25% {
-    clip: rect(96px, 9999px, 41px, 0); }
+    clip: rect(35px, 9999px, 61px, 0); }
   30% {
-    clip: rect(88px, 9999px, 75px, 0); }
+    clip: rect(74px, 9999px, 80px, 0); }
   35% {
-    clip: rect(16px, 9999px, 92px, 0); }
+    clip: rect(72px, 9999px, 34px, 0); }
   40% {
-    clip: rect(40px, 9999px, 58px, 0); }
+    clip: rect(99px, 9999px, 69px, 0); }
   45% {
-    clip: rect(33px, 9999px, 31px, 0); }
+    clip: rect(49px, 9999px, 9px, 0); }
   50% {
-    clip: rect(74px, 9999px, 15px, 0); }
+    clip: rect(13px, 9999px, 43px, 0); }
   55% {
-    clip: rect(42px, 9999px, 99px, 0); }
+    clip: rect(34px, 9999px, 93px, 0); }
   60% {
-    clip: rect(6px, 9999px, 81px, 0); }
+    clip: rect(50px, 9999px, 34px, 0); }
   65% {
-    clip: rect(26px, 9999px, 81px, 0); }
+    clip: rect(81px, 9999px, 72px, 0); }
   70% {
-    clip: rect(88px, 9999px, 100px, 0); }
+    clip: rect(89px, 9999px, 49px, 0); }
   75% {
-    clip: rect(7px, 9999px, 97px, 0); }
+    clip: rect(85px, 9999px, 45px, 0); }
   80% {
-    clip: rect(49px, 9999px, 23px, 0); }
+    clip: rect(15px, 9999px, 83px, 0); }
   85% {
-    clip: rect(58px, 9999px, 60px, 0); }
+    clip: rect(24px, 9999px, 28px, 0); }
   90% {
-    clip: rect(65px, 9999px, 80px, 0); }
+    clip: rect(84px, 9999px, 15px, 0); }
   95% {
-    clip: rect(64px, 9999px, 71px, 0); }
+    clip: rect(95px, 9999px, 94px, 0); }
   100% {
-    clip: rect(3px, 9999px, 35px, 0); } }
+    clip: rect(39px, 9999px, 4px, 0); } }
 
 h1 {
   font-family: "EB Garamond", serif;
@@ -266,11 +266,14 @@ i {
     text-shadow: 3px 0 #CF307A; }
   .glitch-hover:after {
     left: -3px;
-    text-shadow: -3px 0 #A82763; }
+    text-shadow: -3px 0 #1C454A; }
   .glitch-hover:hover:before {
     animation: glitch-1 2s infinite; }
   .glitch-hover:hover:after {
     animation: glitch-2 2s infinite; }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -283,7 +286,7 @@ body {
     background-color: rgba(37, 46, 51, 0.6);
     color: #fff; }
     body section .container {
-      max-width: 1200px;
+      max-width: 1000px;
       width: 100%;
       margin: 0 auto;
       padding: 0 20px; }
@@ -291,29 +294,21 @@ body {
         margin-top: 0; }
       body section .container .content a {
         color: white; }
+    body section.left .container, body section.right .container {
+      display: flex;
+      align-items: center;
+      position: relative; }
+      body section.left .container .title, body section.right .container .title {
+        flex: 1 0 40%; }
+      body section.left .container .content, body section.right .container .content {
+        padding: 40px 0;
+        flex: 1 0 60%; }
     body section.left .container {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: relative; }
-      body section.left .container .title {
-        flex: 1 0 50%; }
-      body section.left .container .content {
-        padding: 40px 0;
-        flex: 1 0 50%; }
+      flex-direction: row; }
     body section.right .container {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
-      position: relative; }
+      flex-direction: row-reverse; }
       body section.right .container .title {
-        flex: 1 0 50%;
         text-align: right; }
-        body section.right .container .title h2 {
-          padding-left: 20px; }
-      body section.right .container .content {
-        padding: 40px 0;
-        flex: 1 0 50%; }
     body section.center .container {
       text-align: center;
       padding: 40px 0; }
@@ -331,64 +326,49 @@ body {
           content: "\A";
           white-space: pre; } }
 
-header {
-  background-color: rgba(37, 46, 51, 0.99);
-  position: relative;
-  height: 0;
-  top: auto;
-  bottom: 0;
+header .logo {
+  margin: 0.5rem 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
   opacity: 0;
-  transition: all 0.4s ease-in-out; }
-  header .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    color: #fff; }
-    header .container .content {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-end; }
-      header .container .content .logo {
-        display: flex;
-        flex-direction: row; }
-        header .container .content .logo img {
-          height: 50px;
-          width: auto;
-          margin-right: 5px; }
-        header .container .content .logo h5 {
-          font-weight: 100;
-          margin-bottom: 0;
-          color: #fff; }
-      header .container .content .menu ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0;
-        margin: 0; }
-        header .container .content .menu ul li {
-          list-style: none; }
-          header .container .content .menu ul li + li {
-            margin-left: 20px; }
-          header .container .content .menu ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.5rem;
-            font-weight: 100; }
-  header.sticky {
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    height: auto;
-    width: 100%;
-    opacity: 1;
-    z-index: 10; }
-    header.sticky + section {
-      padding-top: 92px; }
+  transition: opacity 0.5s ease-in-out; }
+  header .logo img {
+    height: 75px;
+    width: auto; }
+
+header .menu {
+  opacity: 0;
+  padding: .5rem 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 0.5s ease-in-out; }
+  header .menu ul {
+    text-align: right;
+    padding: 0;
+    margin: 0; }
+    header .menu ul li {
+      list-style: none;
+      font-size: 1.25rem; }
+      header .menu ul li a {
+        text-decoration: none;
+        color: #fff; }
+        header .menu ul li a:hover {
+          color: #4DBDC9; }
+          header .menu ul li a:hover.glitch-hover {
+            color: #fff; }
+        header .menu ul li a i {
+          font-size: 14px;
+          margin-right: 4px; }
+
+header.sticky .logo {
+  opacity: 1; }
+
+header.sticky .menu {
+  opacity: 1;
+  background-color: rgba(191, 169, 101, 0.75); }
 
 @media (max-width: 991px) {
   .maintenance .container {
@@ -406,53 +386,18 @@ header {
       white-space: pre; } }
 
 #intro {
-  transition: all 0.4s ease-in-out; }
-  #intro * {
-    transition: all 0.2s ease-in-out; }
-  #intro .container .title h1 {
-    margin-bottom: 0; }
-  #intro .container .title h5 {
-    margin-top: 0; }
-  #intro .container .content {
-    background-image: none; }
-    #intro .container .content ul {
-      text-align: right;
-      padding: 0;
-      margin: 0; }
-      #intro .container .content ul li {
-        list-style: none;
-        font-size: 1.25rem; }
-        #intro .container .content ul li a {
-          text-decoration: none; }
-          #intro .container .content ul li a:hover {
-            color: #b39e5f; }
-            #intro .container .content ul li a:hover.glitch-hover {
-              color: #fff; }
-          #intro .container .content ul li a i {
-            font-size: 14px;
-            margin-right: 4px; }
-  #intro.sticky {
-    background-color: rgba(37, 46, 51, 0.99);
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    height: auto;
-    width: 100%;
-    z-index: 10; }
-    #intro.sticky .container .title h1 {
-      font-size: 2rem; }
-    #intro.sticky .container .title h5 {
-      opacity: 0;
-      font-size: 0; }
-    #intro.sticky .container .content {
-      padding: .5rem 0; }
-      #intro.sticky .container .content ul li {
-        font-size: 1rem; }
-        #intro.sticky .container .content ul li a i {
-          font-size: 12px;
-          margin-right: 3px; }
-    #intro.sticky + section {
-      padding-top: 200px; }
+  height: 50vh; }
+  #intro .container {
+    padding: 60px 20px 0; }
+    #intro .container .title {
+      flex: 1 0 75%; }
+      #intro .container .title h1 {
+        margin-bottom: 0; }
+      #intro .container .title h5 {
+        margin-top: 0; }
+    #intro .container .content {
+      flex: 1 0 25%;
+      background-image: none; }
 
 #social {
   background-image: none;

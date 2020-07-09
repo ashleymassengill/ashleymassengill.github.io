@@ -1,72 +1,58 @@
 header{
-  background-color: rgba(37,46,51, .99);
-  position: relative;
-  height: 0;
-  top: auto;
-  bottom: 0;
-  opacity: 0;
-  transition: all 0.4s ease-in-out;
-  .container{
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    color: $white;
-    .content{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-end;
-      .logo{
-        display: flex;
-        flex-direction: row;
-        img{
-          height: 50px;
-          width: auto;
-          margin-right: 5px;
-        }
-        h5{
-          font-weight: 100;
-          margin-bottom: 0;
+  .logo{
+    margin: 0.5rem 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    img{
+      height: 75px;
+      width: auto;
+    }
+  }
+  .menu{
+    opacity: 0;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    ul{
+      text-align: right;
+      padding: 0;
+      margin: 0;
+      li{
+        list-style: none;
+        font-size: 1.25rem;
+        a{
+          text-decoration: none;
           color: $white;
-        }
-      }
-      .menu{
-        ul{
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center;
-          padding: 0;
-          margin: 0;
-          li{
-            list-style: none;
-            +li{
-              margin-left: 20px;
-            }
-            a{
+          &:hover{
+            color: $primary-lightest;
+            &.glitch-hover{
               color: $white;
-              text-decoration: none;
-              font-size: 1.5rem;
-              font-weight: 100;
             }
+          }
+          i{
+            font-size: 14px;
+            margin-right: 4px;
           }
         }
       }
     }
   }
   &.sticky{
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    height: auto;
-    width: 100%;
-    opacity: 1;
-    z-index: 10;
+    .logo{
+      opacity: 1;
+    }
+    .menu{
+      opacity: 1;
+      background-color: rgba(191,169,101, .75);
+    }
     + section{
-      padding-top: 92px;
+      // padding-top: 50px;
     }
   }
 }
