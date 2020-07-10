@@ -9,6 +9,9 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  *{
+    box-sizing: border-box;
+  }
   section{
     background-color: rgba(37,46,51,.6);
     color: $white;
@@ -63,28 +66,39 @@ body{
     }
     @media (max-width: $screen-sm-max){
       .container{
-        padding: 20px;
-        .content{
-          background-image: none !important;
-          padding: 2.5rem 1rem 2.5rem 125px;
-          text-align: right;
+        padding: 40px;
+      }
+      &.left, &.right{
+        .container{
+          flex-direction: column;
+          .title{
+            flex: 1 0 100%;
+          }
+          .content{
+            flex: 1 0 100%;
+            padding: 0;
+          }
+        }
+      }
+      &.left{
+        .container{
+          align-items: flex-start;
+          .content{
+            text-align: left;
+          }
+        }
+      }
+      &.right{
+        .container{
+          align-items: flex-end;
+          .content{
+            text-align: right;
+          }
         }
       }
     }
     @media (max-width: $screen-xs-max){
-      .container{
-        .content{
-          padding: 2rem 1rem 2rem 75px;
-          h5{
-            span{
-              &:after{
-                content: "\A";
-                white-space: pre;
-              }
-            }
-          }
-        }
-      }
+
     }
   }
 }

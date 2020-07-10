@@ -1,8 +1,5 @@
 #skills{
   .container{
-    .title{
-
-    }
     .content{
       display: flex;
       flex-direction: row;
@@ -28,6 +25,25 @@
           ul{
             flex: 1 0 50%;
           }
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-sm-max){
+    .container{
+      .content{
+        >div{
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max){
+    .container{
+      .content{
+        flex-wrap: wrap;
+        >div{
+          flex: 1 0 45%;
         }
       }
     }

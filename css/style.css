@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap");
 @keyframes glitch-1 {
   0% {
-    clip: rect(85px, 9999px, 16px, 0); }
+    clip: rect(47px, 9999px, 49px, 0); }
   5% {
-    clip: rect(77px, 9999px, 40px, 0); }
+    clip: rect(14px, 9999px, 42px, 0); }
   10% {
-    clip: rect(80px, 9999px, 40px, 0); }
+    clip: rect(97px, 9999px, 89px, 0); }
   15% {
-    clip: rect(81px, 9999px, 78px, 0); }
+    clip: rect(46px, 9999px, 80px, 0); }
   20% {
-    clip: rect(70px, 9999px, 67px, 0); }
+    clip: rect(49px, 9999px, 31px, 0); }
   25% {
-    clip: rect(58px, 9999px, 16px, 0); }
+    clip: rect(1px, 9999px, 31px, 0); }
   30% {
-    clip: rect(49px, 9999px, 74px, 0); }
+    clip: rect(44px, 9999px, 40px, 0); }
   35% {
-    clip: rect(53px, 9999px, 17px, 0); }
+    clip: rect(87px, 9999px, 19px, 0); }
   40% {
-    clip: rect(61px, 9999px, 62px, 0); }
+    clip: rect(58px, 9999px, 28px, 0); }
   45% {
-    clip: rect(89px, 9999px, 16px, 0); }
+    clip: rect(4px, 9999px, 65px, 0); }
   50% {
-    clip: rect(67px, 9999px, 86px, 0); }
+    clip: rect(12px, 9999px, 100px, 0); }
   55% {
-    clip: rect(71px, 9999px, 4px, 0); }
+    clip: rect(33px, 9999px, 89px, 0); }
   60% {
-    clip: rect(53px, 9999px, 56px, 0); }
+    clip: rect(67px, 9999px, 27px, 0); }
   65% {
-    clip: rect(99px, 9999px, 84px, 0); }
+    clip: rect(25px, 9999px, 61px, 0); }
   70% {
-    clip: rect(60px, 9999px, 40px, 0); }
+    clip: rect(62px, 9999px, 82px, 0); }
   75% {
-    clip: rect(54px, 9999px, 5px, 0); }
+    clip: rect(38px, 9999px, 54px, 0); }
   80% {
-    clip: rect(69px, 9999px, 81px, 0); }
+    clip: rect(11px, 9999px, 10px, 0); }
   85% {
-    clip: rect(26px, 9999px, 18px, 0); }
+    clip: rect(16px, 9999px, 57px, 0); }
   90% {
-    clip: rect(55px, 9999px, 8px, 0); }
+    clip: rect(22px, 9999px, 89px, 0); }
   95% {
-    clip: rect(41px, 9999px, 62px, 0); }
+    clip: rect(93px, 9999px, 77px, 0); }
   100% {
-    clip: rect(40px, 9999px, 1px, 0); } }
+    clip: rect(37px, 9999px, 29px, 0); } }
 
 @keyframes glitch-2 {
   0% {
-    clip: rect(85px, 9999px, 75px, 0); }
+    clip: rect(39px, 9999px, 94px, 0); }
   5% {
-    clip: rect(7px, 9999px, 95px, 0); }
+    clip: rect(56px, 9999px, 52px, 0); }
   10% {
-    clip: rect(5px, 9999px, 77px, 0); }
+    clip: rect(30px, 9999px, 68px, 0); }
   15% {
-    clip: rect(36px, 9999px, 71px, 0); }
+    clip: rect(49px, 9999px, 96px, 0); }
   20% {
-    clip: rect(27px, 9999px, 25px, 0); }
+    clip: rect(27px, 9999px, 38px, 0); }
   25% {
-    clip: rect(88px, 9999px, 57px, 0); }
+    clip: rect(24px, 9999px, 58px, 0); }
   30% {
-    clip: rect(16px, 9999px, 67px, 0); }
+    clip: rect(93px, 9999px, 37px, 0); }
   35% {
-    clip: rect(80px, 9999px, 39px, 0); }
+    clip: rect(45px, 9999px, 88px, 0); }
   40% {
-    clip: rect(15px, 9999px, 68px, 0); }
+    clip: rect(29px, 9999px, 35px, 0); }
   45% {
-    clip: rect(60px, 9999px, 67px, 0); }
+    clip: rect(10px, 9999px, 37px, 0); }
   50% {
-    clip: rect(38px, 9999px, 11px, 0); }
+    clip: rect(48px, 9999px, 38px, 0); }
   55% {
-    clip: rect(26px, 9999px, 21px, 0); }
+    clip: rect(20px, 9999px, 96px, 0); }
   60% {
-    clip: rect(85px, 9999px, 57px, 0); }
+    clip: rect(74px, 9999px, 45px, 0); }
   65% {
-    clip: rect(93px, 9999px, 91px, 0); }
+    clip: rect(45px, 9999px, 29px, 0); }
   70% {
-    clip: rect(69px, 9999px, 15px, 0); }
+    clip: rect(39px, 9999px, 44px, 0); }
   75% {
-    clip: rect(41px, 9999px, 91px, 0); }
+    clip: rect(44px, 9999px, 97px, 0); }
   80% {
-    clip: rect(22px, 9999px, 1px, 0); }
+    clip: rect(8px, 9999px, 44px, 0); }
   85% {
-    clip: rect(59px, 9999px, 3px, 0); }
+    clip: rect(14px, 9999px, 52px, 0); }
   90% {
-    clip: rect(66px, 9999px, 70px, 0); }
+    clip: rect(100px, 9999px, 49px, 0); }
   95% {
-    clip: rect(54px, 9999px, 47px, 0); }
+    clip: rect(67px, 9999px, 97px, 0); }
   100% {
-    clip: rect(37px, 9999px, 71px, 0); } }
+    clip: rect(94px, 9999px, 81px, 0); } }
 
 h1 {
   font-family: "EB Garamond", serif;
@@ -282,6 +282,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  body * {
+    box-sizing: border-box; }
   body section {
     background-color: rgba(37, 46, 51, 0.6);
     color: #fff; }
@@ -314,17 +316,22 @@ body {
       padding: 40px 0; }
     @media (max-width: 991px) {
       body section .container {
-        padding: 20px; }
-        body section .container .content {
-          background-image: none !important;
-          padding: 2.5rem 1rem 2.5rem 125px;
+        padding: 40px; }
+      body section.left .container, body section.right .container {
+        flex-direction: column; }
+        body section.left .container .title, body section.right .container .title {
+          flex: 1 0 100%; }
+        body section.left .container .content, body section.right .container .content {
+          flex: 1 0 100%;
+          padding: 0; }
+      body section.left .container {
+        align-items: flex-start; }
+        body section.left .container .content {
+          text-align: left; }
+      body section.right .container {
+        align-items: flex-end; }
+        body section.right .container .content {
           text-align: right; } }
-    @media (max-width: 767px) {
-      body section .container .content {
-        padding: 2rem 1rem 2rem 75px; }
-        body section .container .content h5 span:after {
-          content: "\A";
-          white-space: pre; } }
 
 header .logo {
   margin: 1rem 1rem;
@@ -398,6 +405,14 @@ header.sticky .menu {
     #intro .container .content {
       flex: 1 0 25%;
       background-image: none; }
+  @media (max-width: 991px) {
+    #intro {
+      height: 25vh; }
+      #intro .container {
+        padding: 60px 40px 0; } }
+  @media (max-width: 767px) {
+    #intro .container .title h1 {
+      font-size: 2.5rem; } }
 
 #social {
   background-image: none;
@@ -415,6 +430,14 @@ header.sticky .menu {
       #social .social li a i {
         font-size: 2.5rem;
         transition: all 0.4s ease-in-out; }
+  @media (max-width: 991px) {
+    #social .social li {
+      padding: 0 1rem; }
+      #social .social li a i {
+        font-size: 2rem; } }
+  @media (max-width: 767px) {
+    #social .social li a i {
+      font-size: 1.5rem; } }
 
 #skills .container .content {
   display: flex;
@@ -437,6 +460,16 @@ header.sticky .menu {
         margin-bottom: 0; }
       #skills .container .content > div.tools ul {
         flex: 1 0 50%; }
+
+@media (max-width: 991px) {
+  #skills .container .content > div {
+    padding: 0 10px; } }
+
+@media (max-width: 767px) {
+  #skills .container .content {
+    flex-wrap: wrap; }
+    #skills .container .content > div {
+      flex: 1 0 45%; } }
 
 #work {
   background-color: rgba(37, 46, 51, 0.7); }
@@ -467,10 +500,18 @@ header.sticky .menu {
         color: #CF307A;
         margin-right: 4px;
         vertical-align: middle; }
+  @media (max-width: 767px) {
+    #work .container .content > div p {
+      font-size: 15px; }
+    #work .container .content > div ul {
+      padding-left: 0; }
+      #work .container .content > div ul li {
+        font-size: 15px; } }
 
 #contact {
   background-color: rgba(37, 46, 51, 0.85); }
   #contact .container .content ul {
+    margin: 0;
     padding: 0; }
     #contact .container .content ul li {
       list-style: none;
@@ -486,3 +527,20 @@ header.sticky .menu {
             color: #4DBDC9; }
       #contact .container .content ul li + li {
         margin-top: 0.5rem; }
+  @media (max-width: 991px) {
+    #contact .container .content ul li {
+      font-size: 1.25rem; }
+      #contact .container .content ul li a {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start; }
+        #contact .container .content ul li a i {
+          font-size: 1.25rem;
+          margin-right: 0;
+          margin-left: 0.75rem; } }
+  @media (max-width: 767px) {
+    #contact .container .content ul li {
+      font-size: 1rem; }
+      #contact .container .content ul li a i {
+        margin-left: 0.5rem;
+        font-size: 1rem; } }

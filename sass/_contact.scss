@@ -1,11 +1,9 @@
 #contact{
   background-color: rgba(37,46,51, .85);
   .container{
-    .title{
-
-    }
     .content{
       ul{
+        margin: 0;
         padding: 0;
         li{
           list-style: none;
@@ -25,6 +23,44 @@
           }
           + li{
             margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-sm-max){
+    .container{
+      .content{
+        ul{
+          li{
+            font-size: 1.25rem;
+            a{
+              display: flex;
+              flex-direction: row-reverse;
+              justify-content: flex-start;
+              i{
+                font-size: 1.25rem;
+                margin-right: 0;
+                margin-left: 0.75rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max){
+    .container{
+      .content{
+        ul{
+          li{
+            font-size: 1rem;
+            a{
+              i{
+                margin-left: 0.5rem;
+                font-size: 1rem;
+              }
+            }
           }
         }
       }
