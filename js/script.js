@@ -3,8 +3,8 @@
 // });
 
 $(document).ready(function(event){
-  $(".fa-bars").click(function(){
-    $(".menunavMobile li").slideToggle("slow");
+  $(".navtoggle").click(function(){
+    $("#header").toggleClass("open");
     console.log ("nav toggle working");
   });
 });

@@ -5,6 +5,7 @@ header{
     left: 0;
     top: 0;
     opacity: 0;
+    z-index: 10;
     transition: opacity 0.5s ease-in-out;
     img{
       height: 75px;
@@ -53,6 +54,108 @@ header{
     }
     + section{
       // padding-top: 50px;
+    }
+  }
+  @media (max-width: $screen-sm-max){
+    background-color: rgba(37,46,51, .98);
+    position: fixed;
+    width: 15%;
+    top: 76px;
+    right: -115px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: right 0.4s linear;
+    .navtoggle{
+      width: 40px;
+      height: 40px;
+      padding: 0.5rem;
+      background-color: rgba(191,169,101, .75);
+      position: absolute;
+      left: -40px;
+      top: 0;
+      z-index: 11;
+      display: flex;
+      align-items: center;
+      @include transition;
+      *{
+        @include transition;
+      }
+      span{
+        display: flex;
+        flex-direction: column;
+        height: 1px;
+        width: 24px;
+        background-color: $white;
+        &:before{
+          content: "";
+          height: 2px;
+          width: 24px;
+          background-color: $white;
+          position: relative;
+          top: -8px;
+        }
+        &:after{
+          content: "";
+          height: 2px;
+          width: 24px;
+          background-color: $white;
+          position: relative;
+          top: 8px;
+        }
+      }
+    }
+    .logo{
+      position: static;
+      opacity: 1;
+      text-align: right;
+      margin: 0.5rem 1rem 0;
+      z-index: 0;
+      img{
+        height: 50px;
+      }
+    }
+    .menu{
+      position: static;
+      opacity: 1;
+      z-index: 0;
+      ul{
+        li{
+          font-size: 1rem;
+        }
+      }
+    }
+    &.open{
+      right: 0;
+      .navtoggle{
+        background-color: rgba(191,169,101, .98);
+        span{
+          justify-content: center;
+          height: 2px;
+          &:before{
+            transform: rotate(45deg);
+            right: -4px;
+          }
+          &:after{
+            transform: rotate(-45deg);
+            right: -3.15px;
+          }
+        }
+      }
+    }
+    &.sticky{
+      .menu{
+        background-color: transparent;
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max){
+    width: 31%;
+    right: -117px;
+    top: 20px;
+    &.open{
+      right: 0;
     }
   }
 }
