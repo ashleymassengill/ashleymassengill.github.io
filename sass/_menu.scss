@@ -59,7 +59,7 @@ header{
   @media (max-width: $screen-sm-max){
     background-color: rgba(37,46,51, .98);
     position: fixed;
-    width: 15%;
+    width: 115px;
     top: 76px;
     right: -115px;
     z-index: 10;
@@ -85,12 +85,12 @@ header{
       span{
         display: flex;
         flex-direction: column;
-        height: 1px;
+        height: 2px;
         width: 24px;
         background-color: $white;
         &:before{
           content: "";
-          height: 2px;
+          min-height: 2px;
           width: 24px;
           background-color: $white;
           position: relative;
@@ -98,11 +98,11 @@ header{
         }
         &:after{
           content: "";
-          height: 2px;
+          min-height: 2px;
           width: 24px;
           background-color: $white;
           position: relative;
-          top: 8px;
+          top: 6px;
         }
       }
     }
@@ -136,10 +136,13 @@ header{
           &:before{
             transform: rotate(45deg);
             right: -4px;
+            min-height: 1px;
           }
           &:after{
             transform: rotate(-45deg);
             right: -3.15px;
+            min-height: 1px;
+            top: 8px;
           }
         }
       }
@@ -151,7 +154,7 @@ header{
     }
   }
   @media (max-width: $screen-xs-max){
-    width: 31%;
+    width: 117px;
     right: -117px;
     top: 20px;
     &.open{
