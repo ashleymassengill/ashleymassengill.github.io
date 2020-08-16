@@ -13,358 +13,358 @@ app.controller('galleryController', ['$scope', function($scope) {
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/letter-sign.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Surfer',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/surfer.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Fire Escape',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/fire-escape.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Sailboat',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/sailboat2.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Mercers pier',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/mercers2.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Merch Man',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/sales-guy.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Alley',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/alley.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Looking up at a billboard',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/billboard.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Split pine in a field',
         location: 'Clayton, NC',
         date: '2006',
         file: 'images/gallery/split-pine.jpg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Fountain propeller',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/propeller2.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Coffee house',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/coffee.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Sand shelf',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/sand.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Ship in silouette',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/ship2.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Original tile',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/tile-entry.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Troy',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/troy.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Hanging vines',
         location: 'Raleigh, NC',
         date: '2011',
         file: 'images/gallery/vines-green.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Ocean wave',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/wave2.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Old barn',
         location: 'Clayton, NC',
         date: '2006',
         file: 'images/gallery/barn.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Loading equipment',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/band-load.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Utility access',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/access.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Grass',
         location: 'Clayton, NC',
         date: '2006',
         file: 'images/gallery/grass.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Ship in partial silouette',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/ship3.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Band merch sales',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/sales-guys.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Painted soldier',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/soldier.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Trees',
         location: 'Chadbourn, NC',
         date: '2007',
         file: 'images/gallery/trees1.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Trash',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/trash.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Boxing monkeys',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/boxers.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Brandy',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/brandy.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Door',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/door.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Barn',
         location: 'Chadbourn, NC',
         date: '2007',
         file: 'images/gallery/barn2.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Guitar storage',
         location: 'Raleigh, NC',
         date: '2006',
         file: 'images/gallery/guitar-cases.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Distant logs',
         location: 'Clayton, NC',
         date: '2006',
         file: 'images/gallery/logs-distant.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Grafiti girl',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/love-girl.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Mercers pier',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/mercers1.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'News stand',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/news.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Parking deck',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/parking-deck.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Fountain propeller',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/propeller-top.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Trees',
         location: 'Chadbourn, NC',
         date: '2007',
         file: 'images/gallery/trees2.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Sailboat',
         location: 'Chadbourn, NC',
         date: '2007',
         file: 'images/gallery/sailboat.jpg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Ship in silouette',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/ship1.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Painted soldier',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/soldier2.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Neon vines',
         location: 'Raleigh, NC',
         date: '2007',
         file: 'images/gallery/vines-neon.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Wave',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/wave.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Logs',
         location: 'Clayton, NC',
         date: '2006',
         file: 'images/gallery/logs-close.jpg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Mercers pier',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/mercers3.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Cat',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/cat.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Grafiti',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/grafiti.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Dock house',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/dock-house.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Fan',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/fan.jpeg',
-        likes: 0
+        orientation: 'landscape'
       },
       {
         name: 'Fountain propeller',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/propeller.jpeg',
-        likes: 0
+        orientation: 'portrait'
       },
       {
         name: 'Mercers peir',
         location: 'Wilmington, NC',
         date: '2007',
         file: 'images/gallery/mercers4.jpeg',
-        likes: 0
-      },
+        orientation: 'landscape'
+      }
     ]
   $scope.like =
     function(index) {

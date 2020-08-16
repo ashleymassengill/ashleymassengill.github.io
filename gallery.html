@@ -52,15 +52,11 @@
       </div>
 
       <div  class="image-gallery">
-        <div ng-repeat="image in images" class="thumbnail">
+        <div ng-repeat="image in images" class="thumbnail {{ image.orientation }}">
           <img ng-src="{{ image.file }}">
           <div class="caption">
-            <h5>{{ image.name }}</h5>
-            <h6>{{ image.location | uppercase }}</h6>
-            <p>{{ image.date }}</p>
-            <div class="likes">
-              <span class='like' ng-click='like($index)'><i class="far fa-heart"></i> {{image.likes}}</span>
-            </div>
+            <p class="name">{{ image.name }}</p>
+            <p class="info">{{ image.date }} {{ image.location }}</p>
           </div>
         </div>
       </div>
