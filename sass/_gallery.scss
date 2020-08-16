@@ -6,8 +6,9 @@
       flex-wrap: wrap;
       .thumbnail{
         max-width: 25%;
+        width: 100%;
         img{
-          max-width: 100%;
+          max-width: 95%;
         }
       }
     }
