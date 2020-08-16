@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ashley Massengill - portfolio of a girl developer</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-91465022-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- angularjs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/c53d1cb943.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body ng-app="gallery" id="gallery">
+
+    <header id="header">
+      <div class="logo">
+        <a href="http://wwww.ashleymassengill.com"><img src="images/logo-gold.svg" alt="ashley massengill"></a>
+      </div>
+      <div class="top">
+        <a href="#">
+          <img src="images/up-arrow.svg" alt="Click to return to top of page">
+        </a>
+      </div>
+    </header>
+
+    <section class="main" ng-controller="galleryController">
+      <div class="container">
+        <h1 class="glitch" data-text="{{ title }}">{{ title }}</h1>
+        <p>{{ description.one }}</p>
+        <p>{{ description.two }}</p>
+        <p>{{ description.three }}</p>
+      </div>
+
+      <div  class="image-gallery">
+        <div ng-repeat="image in images" class="thumbnail">
+          <img ng-src="{{ image.file }}">
+          <div class="caption">
+            <h5>{{ image.name }}</h5>
+            <h6>{{ image.location | uppercase }}</h6>
+            <p>{{ image.date }}</p>
+            <div class="likes">
+              <span class='like' ng-click='plusOne($index)'><i class="far fa-heart"></i> {{image.likes}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modules -->
+    <script src="js/gallery.js"></script>
+
+    <!-- controllers -->
+    <script src="js/controllers/galleryController.js"></script>
+
+  </body>
+
+</html>

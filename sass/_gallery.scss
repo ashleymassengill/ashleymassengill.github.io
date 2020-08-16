@@ -1,0 +1,15 @@
+#gallery{
+  .main{
+    .image-gallery{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .thumbnail{
+        max-width: 25%;
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

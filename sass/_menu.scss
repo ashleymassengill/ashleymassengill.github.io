@@ -44,6 +44,15 @@ header{
       }
     }
   }
+  .top{
+    margin: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    img{
+      height: 50px;
+    }
+  }
   &.sticky{
     .logo{
       opacity: 1;
@@ -126,6 +135,11 @@ header{
         }
       }
     }
+    .top{
+      img{
+        height: 40px;
+      }
+    }
     &.open{
       right: 0;
       .navtoggle{
@@ -157,8 +171,29 @@ header{
     width: 117px;
     right: -117px;
     top: 20px;
+    .top{
+      img{
+        height: 30px;
+      }
+    }
     &.open{
       right: 0;
+    }
+  }
+}
+
+
+#gallery{
+  header{
+    @media (max-width: $screen-sm-max){
+      position: initial;
+      background-color: transparent;
+      width: auto;
+      display: block;
+      .logo{
+        position: fixed;
+        margin: 1rem;
+      }
     }
   }
 }
