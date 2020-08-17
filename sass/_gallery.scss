@@ -1,37 +1,49 @@
-#gallery{
-  .main{
-    .image-gallery{
-      max-width: 2400px;
-      padding: 2rem 90px;
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-      .thumbnail{
-        width: 100%;
-        position: relative;
-        &.portrait{
-          grid-row: auto / span 2;
+body#gallery{
+  background-image: url('../images/background2.jpg');
+  background-size: 75%;
+  background-position: bottom right;
+  .overlay{
+    background-color: rgba(37,46,51, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  section{
+    position: relative;
+  }
+  .image-gallery{
+    max-width: 2400px;
+    padding: 2rem 90px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    .thumbnail{
+      width: 100%;
+      position: relative;
+      &.portrait{
+        grid-row: auto / span 2;
+      }
+      img{
+        max-width: 100%;
+      }
+      .caption{
+        padding: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(37,46,51, .8);
+        *{
+          margin-top: 0;
+          margin-bottom: 0.25rem;
+          font-size: 1rem;
+          font-weight: 100;
         }
-        img{
-          max-width: 100%;
-        }
-        .caption{
-          padding: 8px;
-          position: absolute;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-color: rgba(37,46,51, .8);
-          *{
-            margin-top: 0;
-            margin-bottom: 0.25rem;
-            font-size: 1rem;
-            font-weight: 100;
-          }
-          .info{
-            font-size: 12px;
-            margin-bottom: 0;
-          }
+        .info{
+          font-size: 12px;
+          margin-bottom: 0;
         }
       }
     }

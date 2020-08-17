@@ -31,7 +31,8 @@
   </head>
 
   <body ng-app="gallery" id="gallery">
-
+    <!-- background images from unsplash.com -->
+    <div class="overlay"></div>
     <header id="header">
       <div class="logo">
         <a href="http://wwww.ashleymassengill.com"><img src="images/logo-gold.svg" alt="ashley massengill"></a>
@@ -50,14 +51,48 @@
         <p>{{ description.two }}</p>
         <p>{{ description.three }}</p>
       </div>
+    </section>
 
-      <div  class="image-gallery">
-        <div ng-repeat="image in images" class="thumbnail {{ image.orientation }}">
-          <img ng-src="{{ image.file }}">
-          <div class="caption">
-            <p class="name">{{ image.name }}</p>
-            <p class="info">{{ image.date }} {{ image.location }}</p>
-          </div>
+    <section class="image-gallery" ng-controller="galleryController">
+      <div class="filtering">
+        <!-- <div class="form-item">
+          <label for="location">Location</label>
+          <select class="location" name="location">
+            <option value="all">All</option>
+            <option value="chadbourn">Chadbourn, NC</option>
+            <option value="clayton">Clayton, NC</option>
+            <option value="raleigh">Raleigh, NC</option>
+            <option value="Wilmington">Wilmington, NC</option>
+          </select>
+        </div> -->
+        <div class="form-item">
+          <label for="orientation">Orientation</label>
+          <select class="orientation" name="orientation">
+            <option value="thumbnail">All</option>
+            <option value="landscape">Landscape</option>
+            <option value="portrait">Portrait</option>
+          </select>
+        </div>
+        <!-- <div class="form-item">
+          <label for="date">Date</label>
+          <select class="date" name="date">
+            <option value="thumbnail">All</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2111">2011</option>
+            <option value="2012">2012</option>
+          </select>
+        </div> -->
+      </div>
+      <div ng-repeat="image in images" class="thumbnail {{ image.orientation }} {{ image.date }}">
+        <img ng-src="{{ image.file }}">
+        <div class="caption">
+          <p class="name">{{ image.name }}</p>
+          <p class="info">{{ image.date }} {{ image.city }}, {{ image.state }}</p>
         </div>
       </div>
     </section>

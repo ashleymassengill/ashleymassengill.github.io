@@ -185,6 +185,9 @@ header{
 
 #gallery{
   header{
+    .logo{
+      opacity: 1;
+    }
     @media (max-width: $screen-sm-max){
       position: initial;
       background-color: transparent;
