@@ -7,20 +7,20 @@ $(document).ready(function(event){
   // mobile nav open close
   $(".navtoggle").click(function(){
     $("#header").toggleClass("open");
-    console.log ("nav toggle working");
+    // console.log ("nav toggle working");
   });
 
   //gallery filtering
   $('.orientation').change(function(){
     $('.thumbnail').hide();
     $('.'+$(this).val()).show();
-    console.log("showing "+$(this).val()+" thumbnail");
+    console.log("showing "+$(this).val()+" thumbnails");
    });
 
    // $('.date').change(function(){
    //   $('.thumbnail').hide();
    //   $('.'+$(this).val()).show();
-   //   console.log("showing "+$(this).val()+" thumbnail");
+   //   console.log("showing "+$(this).val()+" thumbnails");
    //  });
 
 });
@@ -38,4 +38,5 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+  // console.log ('sticky working');
 }

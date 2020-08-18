@@ -54,17 +54,17 @@
     </section>
 
     <section class="image-gallery" ng-controller="galleryController">
-      <div class="filtering">
-        <!-- <div class="form-item">
-          <label for="location">Location</label>
-          <select class="location" name="location">
-            <option value="all">All</option>
+      <!-- <div class="filtering">
+        <div class="form-item">
+          <label for="city">Location</label>
+          <select class="city" name="city">
+            <option value="thumbnail">All</option>
             <option value="chadbourn">Chadbourn, NC</option>
             <option value="clayton">Clayton, NC</option>
             <option value="raleigh">Raleigh, NC</option>
             <option value="Wilmington">Wilmington, NC</option>
           </select>
-        </div> -->
+        </div>
         <div class="form-item">
           <label for="orientation">Orientation</label>
           <select class="orientation" name="orientation">
@@ -73,7 +73,7 @@
             <option value="portrait">Portrait</option>
           </select>
         </div>
-        <!-- <div class="form-item">
+        <div class="form-item">
           <label for="date">Date</label>
           <select class="date" name="date">
             <option value="thumbnail">All</option>
@@ -86,9 +86,9 @@
             <option value="2111">2011</option>
             <option value="2012">2012</option>
           </select>
-        </div> -->
-      </div>
-      <div ng-repeat="image in images" class="thumbnail {{ image.orientation }} {{ image.date }}">
+        </div>
+      </div> -->
+      <div ng-repeat="image in images" class="thumbnail {{ image.orientation }} {{ image.date }} {{ image.city }}">
         <img ng-src="{{ image.file }}">
         <div class="caption">
           <p class="name">{{ image.name }}</p>

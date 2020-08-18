@@ -49,9 +49,10 @@ body#gallery{
     }
     @media (max-width: $screen-sm-max){
       padding: 0 70px;
+      grid-template-columns: repeat(auto-fil, minmax(190px, 1fr));
     }
     @media (max-width: $screen-xs-max){
-      padding: 0 55px;
+      padding: 0 15px;
     }
   }
 }

@@ -227,7 +227,7 @@ app.controller('galleryController', ['$scope', function($scope) {
       {
         name: 'Brandy',
         city: 'Raleigh',
-state: 'NC',
+        state: 'NC',
         date: '2006',
         file: 'images/gallery/brandy.jpeg',
         orientation: 'portrait'
@@ -235,7 +235,7 @@ state: 'NC',
       {
         name: 'Door',
         city: 'Raleigh',
-state: 'NC',
+        state: 'NC',
         date: '2006',
         file: 'images/gallery/door.jpeg',
         orientation: 'portrait'
@@ -243,7 +243,7 @@ state: 'NC',
       {
         name: 'Barn',
         city: 'Chadbourn',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/barn2.jpg',
         orientation: 'landscape'
@@ -251,7 +251,7 @@ state: 'NC',
       {
         name: 'Guitar storage',
         city: 'Raleigh',
-state: 'NC',
+        state: 'NC',
         date: '2006',
         file: 'images/gallery/guitar-cases.jpeg',
         orientation: 'portrait'
@@ -259,7 +259,7 @@ state: 'NC',
       {
         name: 'Distant logs',
         city: 'Clayton',
-state: 'NC',
+        state: 'NC',
         date: '2006',
         file: 'images/gallery/logs-distant.jpg',
         orientation: 'landscape'
@@ -267,7 +267,7 @@ state: 'NC',
       {
         name: 'Grafiti girl',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/love-girl.jpeg',
         orientation: 'portrait'
@@ -275,7 +275,7 @@ state: 'NC',
       {
         name: 'Mercers pier',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/mercers1.jpeg',
         orientation: 'portrait'
@@ -283,7 +283,7 @@ state: 'NC',
       {
         name: 'News stand',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/news.jpeg',
         orientation: 'landscape'
@@ -291,7 +291,7 @@ state: 'NC',
       {
         name: 'Parking deck',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/parking-deck.jpeg',
         orientation: 'landscape'
@@ -299,7 +299,7 @@ state: 'NC',
       {
         name: 'Fountain propeller',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/propeller-top.jpeg',
         orientation: 'landscape'
@@ -307,7 +307,7 @@ state: 'NC',
       {
         name: 'Trees',
         city: 'Chadbourn',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/trees2.jpg',
         orientation: 'landscape'
@@ -315,7 +315,7 @@ state: 'NC',
       {
         name: 'Sailboat',
         city: 'Chadbourn',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/sailboat.jpg',
         orientation: 'landscape'
@@ -323,7 +323,7 @@ state: 'NC',
       {
         name: 'Ship in silouette',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/ship1.jpeg',
         orientation: 'landscape'
@@ -331,7 +331,7 @@ state: 'NC',
       {
         name: 'Painted soldier',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/soldier2.jpeg',
         orientation: 'portrait'
@@ -339,7 +339,7 @@ state: 'NC',
       {
         name: 'Neon vines',
         city: 'Raleigh',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/vines-neon.jpeg',
         orientation: 'portrait'
@@ -347,7 +347,7 @@ state: 'NC',
       {
         name: 'Wave',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/wave.jpeg',
         orientation: 'landscape'
@@ -355,7 +355,7 @@ state: 'NC',
       {
         name: 'Logs',
         city: 'Clayton',
-state: 'NC',
+        state: 'NC',
         date: '2006',
         file: 'images/gallery/logs-close.jpg',
         orientation: 'portrait'
@@ -363,7 +363,7 @@ state: 'NC',
       {
         name: 'Mercers pier',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/mercers3.jpeg',
         orientation: 'portrait'
@@ -371,7 +371,7 @@ state: 'NC',
       {
         name: 'Cat',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/cat.jpeg',
         orientation: 'landscape'
@@ -379,7 +379,7 @@ state: 'NC',
       {
         name: 'Grafiti',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/grafiti.jpeg',
         orientation: 'landscape'
@@ -387,7 +387,7 @@ state: 'NC',
       {
         name: 'Dock house',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/dock-house.jpeg',
         orientation: 'portrait'
@@ -395,7 +395,7 @@ state: 'NC',
       {
         name: 'Fan',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/fan.jpeg',
         orientation: 'landscape'
@@ -403,7 +403,7 @@ state: 'NC',
       {
         name: 'Fountain propeller',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/propeller.jpeg',
         orientation: 'portrait'
@@ -411,7 +411,7 @@ state: 'NC',
       {
         name: 'Mercers peir',
         city: 'Wilmington',
-state: 'NC',
+        state: 'NC',
         date: '2007',
         file: 'images/gallery/mercers4.jpeg',
         orientation: 'landscape'
