@@ -12,9 +12,18 @@ body#gallery{
   }
   section{
     position: relative;
+    .container{
+      @media (max-width: $screen-sm-max){
+        padding: 0 70px;
+      }
+      @media (max-width: $screen-xs-max){
+
+      }
+    }
   }
   .image-gallery{
     max-width: 2400px;
+    margin: 0 auto;
     padding: 2rem 90px;
     display: grid;
     grid-gap: 1rem;
@@ -48,11 +57,12 @@ body#gallery{
       }
     }
     @media (max-width: $screen-sm-max){
-      padding: 0 70px;
+      max-width: 1000px;
+      padding: 1.5rem 70px;
       grid-template-columns: repeat(auto-fil, minmax(190px, 1fr));
     }
     @media (max-width: $screen-xs-max){
-      padding: 0 15px;
+      padding: 1rem 55px 2rem 65px;
     }
   }
 }

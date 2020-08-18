@@ -20,23 +20,31 @@ function myFunction() {
 }
 
 $(document).ready(function(event){
+  $("select.filter").change(function(){
+    var filters = $.map($("select.filter").toArray(), function(e){
+        return $(e).val();
+    }).join(".");
+    $("section.image-gallery").find("div").hide();
+    $("section.image-gallery").find("div." + filters).show();
+    console.log('multi filter working');
+  });
   // gallery image filtering
-  $('.city').change(function(){
-    $this = $(this);
-    $('.thumbnail').hide();
-    $('.'+$this.val()).show();
-    console.log("filtering images working");
-   });
-
-  $('.orientation').change(function(){
-    $this = $(this);
-    $('.thumbnail').hide();
-    $('.'+$this.val()).show();
-   });
-
-   $('.date').change(function(){
-     $this = $(this);
-     $('.thumbnail').hide();
-     $('.'+$this.val()).show();
-    });
+  // $('.city').change(function(){
+  //   $this = $(this);
+  //   $('.thumbnail').hide();
+  //   $('.'+$this.val()).show();
+  //   console.log("filtering images working");
+  //  });
+  //
+  // $('.orientation').change(function(){
+  //   $this = $(this);
+  //   $('.thumbnail').hide();
+  //   $('.'+$this.val()).show();
+  //  });
+  //
+  //  $('.date').change(function(){
+  //    $this = $(this);
+  //    $('.thumbnail').hide();
+  //    $('.'+$this.val()).show();
+  //   });
 });
