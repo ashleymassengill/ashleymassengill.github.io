@@ -17,11 +17,22 @@
     width: 100%;
     flex: 1 0 30%;
   }
+  @media (max-width: $screen-sm-max){
+    > div{
+      + div {
+        margin-left: 0.5rem;
+      }
+    }
+  }
   @media (max-width: $screen-xs-max){
     flex-wrap: wrap;
+    justify-content: center;
     > div{
-      max-width: 100%;
       flex: 1 0 auto;
+      margin-bottom: 0.5rem;
+      + div{
+        margin-left: 0;
+      }
     }
   }
 }
