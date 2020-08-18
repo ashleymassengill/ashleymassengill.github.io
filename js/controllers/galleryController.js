@@ -340,7 +340,7 @@ app.controller('galleryController', ['$scope', function($scope) {
         name: 'Neon vines',
         city: 'Raleigh',
         state: 'NC',
-        date: '2007',
+        date: '2011',
         file: 'images/gallery/vines-neon.jpeg',
         orientation: 'portrait'
       },

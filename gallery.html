@@ -53,41 +53,45 @@
       </div>
     </section>
 
+    <section class='filters'>
+      <div class="container">
+        <div class="filtering">
+          <div class="form-item">
+            <label for="city">Location</label>
+            <select class="city" name="city">
+              <option value="thumbnail">All</option>
+              <option value="Chadbourn">Chadbourn, NC</option>
+              <option value="Clayton">Clayton, NC</option>
+              <option value="Raleigh">Raleigh, NC</option>
+              <option value="Wilmington">Wilmington, NC</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label for="orientation">Orientation</label>
+            <select class="orientation" name="orientation">
+              <option value="thumbnail">All</option>
+              <option value="landscape">Landscape</option>
+              <option value="portrait">Portrait</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label for="date">Date</label>
+            <select class="date" name="date">
+              <option value="thumbnail">All</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="image-gallery" ng-controller="galleryController">
-      <!-- <div class="filtering">
-        <div class="form-item">
-          <label for="city">Location</label>
-          <select class="city" name="city">
-            <option value="thumbnail">All</option>
-            <option value="chadbourn">Chadbourn, NC</option>
-            <option value="clayton">Clayton, NC</option>
-            <option value="raleigh">Raleigh, NC</option>
-            <option value="Wilmington">Wilmington, NC</option>
-          </select>
-        </div>
-        <div class="form-item">
-          <label for="orientation">Orientation</label>
-          <select class="orientation" name="orientation">
-            <option value="thumbnail">All</option>
-            <option value="landscape">Landscape</option>
-            <option value="portrait">Portrait</option>
-          </select>
-        </div>
-        <div class="form-item">
-          <label for="date">Date</label>
-          <select class="date" name="date">
-            <option value="thumbnail">All</option>
-            <option value="2005">2005</option>
-            <option value="2006">2006</option>
-            <option value="2007">2007</option>
-            <option value="2008">2008</option>
-            <option value="2009">2009</option>
-            <option value="2010">2010</option>
-            <option value="2111">2011</option>
-            <option value="2012">2012</option>
-          </select>
-        </div>
-      </div> -->
       <div ng-repeat="image in images" class="thumbnail {{ image.orientation }} {{ image.date }} {{ image.city }}">
         <img ng-src="{{ image.file }}">
         <div class="caption">
@@ -96,6 +100,10 @@
         </div>
       </div>
     </section>
+
+    <!-- main js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- modules -->
     <script src="js/gallery.js"></script>

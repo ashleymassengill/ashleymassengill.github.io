@@ -1,37 +1,15 @@
-// $(document).ready(function(event){
-//   // jQuery code
-// });
-
 $(document).ready(function(event){
-
   // mobile nav open close
   $(".navtoggle").click(function(){
     $("#header").toggleClass("open");
     // console.log ("nav toggle working");
   });
-
-  //gallery filtering
-  $('.orientation').change(function(){
-    $('.thumbnail').hide();
-    $('.'+$(this).val()).show();
-    console.log("showing "+$(this).val()+" thumbnails");
-   });
-
-   // $('.date').change(function(){
-   //   $('.thumbnail').hide();
-   //   $('.'+$(this).val()).show();
-   //   console.log("showing "+$(this).val()+" thumbnails");
-   //  });
-
 });
 
 //header sticky on scroll
 window.onscroll = function() {myFunction()};
-
 var header = document.getElementById("header");
-
 var sticky = header.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
@@ -40,3 +18,25 @@ function myFunction() {
   }
   // console.log ('sticky working');
 }
+
+$(document).ready(function(event){
+  // gallery image filtering
+  $('.city').change(function(){
+    $this = $(this);
+    $('.thumbnail').hide();
+    $('.'+$this.val()).show();
+    console.log("filtering images working");
+   });
+
+  $('.orientation').change(function(){
+    $this = $(this);
+    $('.thumbnail').hide();
+    $('.'+$this.val()).show();
+   });
+
+   $('.date').change(function(){
+     $this = $(this);
+     $('.thumbnail').hide();
+     $('.'+$this.val()).show();
+    });
+});
