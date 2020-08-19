@@ -24,8 +24,8 @@ $(document).ready(function(event){
     var filters = $.map($("select.filter").toArray(), function(e){
         return $(e).val();
     }).join(".");
-    $("section.image-gallery").find("div").hide();
-    $("section.image-gallery").find("div." + filters).show();
+    $("section.image-gallery").find("> div").hide();
+    $("section.image-gallery").find("> div." + filters).show();
     console.log('multi filter working');
   });
   // gallery image filtering
