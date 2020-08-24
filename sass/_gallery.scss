@@ -9,9 +9,9 @@ body#gallery{
     right: 0;
     top: 0;
     bottom: 0;
+    z-index: -1;
   }
   section{
-    position: relative;
     .container{
       @media (max-width: $screen-sm-max){
         padding: 60px 70px 0;
@@ -33,31 +33,31 @@ body#gallery{
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     .thumbnail{
       width: 100%;
-      position: relative;
+      cursor: pointer;
       &.portrait{
         grid-row: auto / span 2;
       }
-      img{
+      >img{
         max-width: 100%;
       }
-      .caption{
-        padding: 8px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(37,46,51, .8);
-        *{
-          margin-top: 0;
-          margin-bottom: 0.25rem;
-          font-size: 1rem;
-          font-weight: 100;
-        }
-        .info{
-          font-size: 12px;
-          margin-bottom: 0;
-        }
-      }
+      // .caption{
+      //   padding: 8px;
+      //   position: absolute;
+      //   left: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   background-color: rgba(37,46,51, .8);
+      //   *{
+      //     margin-top: 0;
+      //     margin-bottom: 0.25rem;
+      //     font-size: 1rem;
+      //     font-weight: 100;
+      //   }
+      //   .info{
+      //     font-size: 12px;
+      //     margin-bottom: 0;
+      //   }
+      // }
     }
     @media (max-width: $screen-sm-max){
       max-width: 1000px;

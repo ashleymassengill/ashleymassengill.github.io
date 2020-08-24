@@ -1,0 +1,44 @@
+.gallery {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .thumbnail {
+    background: black;
+    margin: 5px;
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+    .modal {
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      background-color: rgba(0,0,0, 0.75);
+      &.open {
+        display: block;
+      }
+      .modal-content {
+        max-width: 75%;
+        max-height: 80%;
+        margin: 50px auto 0;
+        padding: 16px;
+        background-color: white;
+        img {
+          height: 100%;
+          width: 100%;
+          .caption {
+            
+          }
+        }
+      }
+    }
+  }
+}

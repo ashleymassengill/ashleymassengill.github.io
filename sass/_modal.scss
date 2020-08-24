@@ -1,0 +1,50 @@
+.modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: rgba(0,0,0, 0.75);
+  cursor: default;
+  &.open {
+    display: block;
+  }
+  .modal-content {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    img{
+      max-height: 90vh;
+      max-width: 100%;
+      object-fit: contain;
+    }
+    .caption{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: $primary-darkest;
+      h4, p{
+        margin-bottom: 0;
+        margin-top: 8px;
+      }
+    }
+  }
+  @media (max-width: $screen-sm-max){
+    .modal-content{
+      max-width: 60%;
+    }
+  }
+  @media (max-width: $screen-xs-max){
+    .modal-content{
+      max-width: 75%;
+    }
+  }
+}

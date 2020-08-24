@@ -48,3 +48,10 @@ $(document).ready(function(event){
   //    $('.'+$this.val()).show();
   //   });
 });
+
+$(document).ready(function(event){
+  //gallery modal
+  $('.thumbnail').click(function(){
+    $(this).children('.modal').toggleClass('open');
+  });
+ });
