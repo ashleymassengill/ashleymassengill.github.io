@@ -52,6 +52,7 @@ $(document).ready(function(event){
 $(document).ready(function(event){
   //gallery modal
   $('.thumbnail').click(function(){
-    $(this).children('.modal').toggleClass('open');
+    $(this).children('.modal').fadeToggle('fast').toggleClass('open');
+    console.log('modal working');
   });
  });
